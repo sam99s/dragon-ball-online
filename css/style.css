@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+button {
+  height: fit-content; }
+
+body {
+  overflow-x: hidden;
+  /* Header */
+  /* Seccion1 */ }
+  body header figure {
+    width: 30vw; }
+    body header figure .logo {
+      width: 100%;
+      height: auto; }
+  body header .navegacion {
+    width: 70vw; }
+  body .seccion1 figure, body .seccion2 figure {
+    width: 100%; }
+    body .seccion1 figure img, body .seccion2 figure img {
+      width: 100%; }
+  body .seccion1 p, body .seccion2 p {
+    align-self: center; }
+  body .seccion2 button {
+    align-self: center; }

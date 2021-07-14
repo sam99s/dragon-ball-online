@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+button{
+    height: fit-content;
+}
+
+body{
+    overflow-x: hidden;
+
+    /* Header */
+    header{
+        figure{
+            width: 30vw;
+            .logo{
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .navegacion{
+            width: 70vw;
+        }
+    }
+
+    /* Seccion1 */
+
+    .seccion1, .seccion2{
+
+        figure{
+            width: 100%;
+            img{
+                width: 100%;
+            }
+        }
+
+        p{
+            align-self: center;
+        }
+    }
+
+    .seccion2{
+        button{
+            align-self: center;
+        }
+    }
+}

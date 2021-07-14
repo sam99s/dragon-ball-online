@@ -1,0 +1,16 @@
+{
+  "name": "dbjs",
+  "version": "1.0.0",
+  "description": "practica de javascript para Coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css"
+  },
+  "author": "sam99s",
+  "license": "MIT",
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12"
+  }
+}
