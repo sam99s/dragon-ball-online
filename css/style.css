@@ -12,14 +12,17 @@ button {
 body {
   overflow-x: hidden;
   /* Header */
-  /* Seccion1 */ }
-  body header figure {
-    width: 30vw; }
-    body header figure .logo {
-      width: 100%;
-      height: auto; }
-  body header .navegacion {
-    width: 70vw; }
+  /* Secciones */ }
+  body header, body footer {
+    background: #FF5140; }
+    body header figure, body footer figure {
+      width: 20vw; }
+      body header figure .logo, body footer figure .logo {
+        width: 80%;
+        height: auto; }
+    body header .navegacion, body footer .navegacion {
+      width: 70vw;
+      background: transparent; }
   body .seccion1 figure, body .seccion2 figure {
     width: 100%; }
     body .seccion1 figure img, body .seccion2 figure img {
@@ -27,4 +30,21 @@ body {
   body .seccion1 p, body .seccion2 p {
     align-self: center; }
   body .seccion2 button {
+    align-self: center; }
+  body .seccion3 p {
+    align-self: center; }
+  body .seccion3 img {
+    width: 90%;
+    height: auto; }
+  body .seccion3 button {
+    text-align: center;
+    align-self: center; }
+  body .seccion4 figure, body .seccion5 figure, body .seccion6 figure {
+    width: 100%; }
+    body .seccion4 figure img, body .seccion5 figure img, body .seccion6 figure img {
+      width: 100%;
+      height: auto; }
+  body .seccion4 p, body .seccion5 p, body .seccion6 p {
+    align-self: center; }
+  body .seccion4 button, body .seccion5 button, body .seccion6 button {
     align-self: center; }

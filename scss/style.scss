@@ -1,3 +1,10 @@
+$color1: #FF914D;
+$color2: #E8963A;
+$color3: #E8633A;
+$color4: #FFBB40;
+$color5: #FF5140;
+
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -16,21 +23,23 @@ body{
     overflow-x: hidden;
 
     /* Header */
-    header{
+    header, footer{
+        background: $color5;
         figure{
-            width: 30vw;
+            width: 20vw;
             .logo{
-                width: 100%;
+                width: 80%;
                 height: auto;
             }
         }
 
         .navegacion{
             width: 70vw;
+            background: transparent;
         }
     }
 
-    /* Seccion1 */
+    /* Secciones */
 
     .seccion1, .seccion2{
 
@@ -47,6 +56,37 @@ body{
     }
 
     .seccion2{
+        button{
+            align-self: center;
+        }
+    }
+
+    .seccion3{
+        p{
+            align-self: center;
+        }
+        img{
+            width: 90%;
+            height: auto;
+        }
+        button{
+            text-align: center;
+            align-self: center;          
+        }
+    }
+
+    .seccion4, .seccion5, .seccion6{        
+        figure{
+            width: 100%;
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+        p{
+            align-self: center;
+        }
+    
         button{
             align-self: center;
         }
