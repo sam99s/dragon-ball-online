@@ -38,7 +38,7 @@ $(document).ready(function () {
     $(goku).click(() => {
         $(foto).remove();
         $(figura).append(`
-        <img class="db-imagen-figura_personaje" src="../assets/personajes/db/goku.png" alt="goku"></img>
+        <img class="db-imagen-figura_personaje animate__animated animate__fadeIn" src="../assets/personajes/db/goku.png" alt="goku"></img>
         `)
         foto = $(".db-imagen-figura_personaje")
     })
@@ -46,7 +46,7 @@ $(document).ready(function () {
     $(bulma).click(() => {
         $(foto).remove();
         $(figura).append(`
-        <img class="db-imagen-figura_personaje" src="../assets/personajes/db/bulma.png" alt="bulma"></img>
+        <img class="db-imagen-figura_personaje animate__animated animate__fadeIn" src="../assets/personajes/db/bulma.png" alt="bulma"></img>
         `)
         foto = $(".db-imagen-figura_personaje")
     })
@@ -54,7 +54,7 @@ $(document).ready(function () {
     $(krillin).click(() => {
         $(foto).remove();
         $(figura).append(`
-        <img class="db-imagen-figura_personaje" src="../assets/personajes/db/krillin.png" alt="krillin"></img>
+        <img class="db-imagen-figura_personaje animate__animated animate__fadeIn" src="../assets/personajes/db/krillin.png" alt="krillin"></img>
         `)
         foto = $(".db-imagen-figura_personaje")
     })
@@ -62,7 +62,7 @@ $(document).ready(function () {
     $(roshi).click(() => {
         $(foto).remove();
         $(figura).append(`
-        <img class="db-imagen-figura_personaje" src="../assets/personajes/db/roshi.png" alt="roshi"></img>
+        <img class="db-imagen-figura_personaje animate__animated animate__fadeIn" src="../assets/personajes/db/roshi.png" alt="roshi"></img>
         `)
         foto = $(".db-imagen-figura_personaje")
     })
@@ -70,7 +70,7 @@ $(document).ready(function () {
     $(jackiechun).click(() => {
         $(foto).remove();
         $(figura).append(`
-        <img class="db-imagen-figura_personaje" src="../assets/personajes/db/jackiechun.png" alt="jackie chun"></img>
+        <img class="db-imagen-figura_personaje animate__animated animate__fadeIn" src="../assets/personajes/db/jackiechun.png" alt="jackie chun"></img>
         `)
         foto = $(".db-imagen-figura_personaje")
     })
@@ -78,7 +78,7 @@ $(document).ready(function () {
     $(urigame).click(() => {
         $(foto).remove();
         $(figura).append(`
-        <img class="db-imagen-figura_personaje" src="../assets/personajes/db/urigame.png" alt="urigame"></img>
+        <img class="db-imagen-figura_personaje animate__animated animate__fadeIn" src="../assets/personajes/db/urigame.png" alt="urigame"></img>
         `)
         foto = $(".db-imagen-figura_personaje")
     })
@@ -86,7 +86,7 @@ $(document).ready(function () {
     $(yamcha).click(() => {
         $(foto).remove();
         $(figura).append(`
-        <img class="db-imagen-figura_personaje" src="../assets/personajes/db/yamcha.png" alt="yamcha"></img>
+        <img class="db-imagen-figura_personaje animate__animated animate__fadeIn" src="../assets/personajes/db/yamcha.png" alt="yamcha"></img>
         `)
         foto = $(".db-imagen-figura_personaje")
     })
@@ -94,7 +94,7 @@ $(document).ready(function () {
     $(oolong).click(() => {
         $(foto).remove();
         $(figura).append(`
-        <img class="db-imagen-figura_personaje" src="../assets/personajes/db/oolong.png" alt="oolong"></img>
+        <img class="db-imagen-figura_personaje animate__animated animate__fadeIn" src="../assets/personajes/db/oolong.png" alt="oolong"></img>
         `)
         foto = $(".db-imagen-figura_personaje")
     })
@@ -102,7 +102,7 @@ $(document).ready(function () {
     $(puar).click(() => {
         $(foto).remove();
         $(figura).append(`
-        <img class="db-imagen-figura_personaje" src="../assets/personajes/db/puar.png" alt="puar"></img>
+        <img class="db-imagen-figura_personaje animate__animated animate__fadeIn" src="../assets/personajes/db/puar.png" alt="puar"></img>
         `)
         foto = $(".db-imagen-figura_personaje")
     })
@@ -110,7 +110,7 @@ $(document).ready(function () {
     $(tenshinhan).click(() => {
         $(foto).remove();
         $(figura).append(`
-        <img class="db-imagen-figura_personaje" src="../assets/personajes/db/tenshinhan.png" alt="tenshinhan"></img>
+        <img class="db-imagen-figura_personaje animate__animated animate__fadeIn" src="../assets/personajes/db/tenshinhan.png" alt="tenshinhan"></img>
         `)
         foto = $(".db-imagen-figura_personaje")
     })
@@ -118,7 +118,7 @@ $(document).ready(function () {
     $(chaoz).click(() => {
         $(foto).remove();
         $(figura).append(`
-        <img class="db-imagen-figura_personaje" src="../assets/personajes/db/chaoz.png" alt="chaoz"></img>
+        <img class="db-imagen-figura_personaje animate__animated animate__fadeIn" src="../assets/personajes/db/chaoz.png" alt="chaoz"></img>
         `)
         foto = $(".db-imagen-figura_personaje")
     })
@@ -126,7 +126,7 @@ $(document).ready(function () {
     $(shenlong).click(() => {
         $(foto).remove();
         $(figura).append(`
-        <img class="db-imagen-figura_personaje" src="../assets/personajes/db/shenlong.png" alt="shenlong"></img>
+        <img class="db-imagen-figura_personaje animate__animated animate__fadeIn" src="../assets/personajes/db/shenlong.png" alt="shenlong"></img>
         `)
         foto = $(".db-imagen-figura_personaje")
     })
@@ -134,7 +134,7 @@ $(document).ready(function () {
     $(namu).click(() => {
         $(foto).remove();
         $(figura).append(`
-        <img class="db-imagen-figura_personaje" src="../assets/personajes/db/namu.png" alt="namu"></img>
+        <img class="db-imagen-figura_personaje animate__animated animate__fadeIn" src="../assets/personajes/db/namu.png" alt="namu"></img>
         `)
         foto = $(".db-imagen-figura_personaje")
     })
@@ -142,7 +142,7 @@ $(document).ready(function () {
     $(chichi).click(() => {
         $(foto).remove();
         $(figura).append(`
-        <img class="db-imagen-figura_personaje" src="../assets/personajes/db/chichi.png" alt="chichi"></img>
+        <img class="db-imagen-figura_personaje animate__animated animate__fadeIn" src="../assets/personajes/db/chichi.png" alt="chichi"></img>
         `)
         foto = $(".db-imagen-figura_personaje")
     })
@@ -150,7 +150,7 @@ $(document).ready(function () {
     $(yajirobe).click(() => {
         $(foto).remove();
         $(figura).append(`
-        <img class="db-imagen-figura_personaje" src="../assets/personajes/db/yajirobe.png" alt="yajirobe"></img>
+        <img class="db-imagen-figura_personaje animate__animated animate__fadeIn" src="../assets/personajes/db/yajirobe.png" alt="yajirobe"></img>
         `)
         foto = $(".db-imagen-figura_personaje")
     })
@@ -158,7 +158,7 @@ $(document).ready(function () {
     $(songohan).click(() => {
         $(foto).remove();
         $(figura).append(`
-        <img class="db-imagen-figura_personaje" src="../assets/personajes/db/songohan.png" alt="songohan"></img>
+        <img class="db-imagen-figura_personaje animate__animated animate__fadeIn" src="../assets/personajes/db/songohan.png" alt="songohan"></img>
         `)
         foto = $(".db-imagen-figura_personaje")
     })
@@ -166,7 +166,7 @@ $(document).ready(function () {
     $(piccolodaimao).click(() => {
         $(foto).remove();
         $(figura).append(`
-        <img class="db-imagen-figura_personaje" src="../assets/personajes/db/piccolodaimao.png" alt="piccolodaimao"></img>
+        <img class="db-imagen-figura_personaje animate__animated animate__fadeIn" src="../assets/personajes/db/piccolodaimao.png" alt="piccolodaimao"></img>
         `)
         foto = $(".db-imagen-figura_personaje")
     })
@@ -174,7 +174,7 @@ $(document).ready(function () {
     $(piccolo).click(() => {
         $(foto).remove();
         $(figura).append(`
-        <img class="db-imagen-figura_personaje" src="../assets/personajes/db/piccolo.png" alt="piccolo"></img>
+        <img class="db-imagen-figura_personaje animate__animated animate__fadeIn" src="../assets/personajes/db/piccolo.png" alt="piccolo"></img>
         `)
         foto = $(".db-imagen-figura_personaje")
     })
@@ -182,7 +182,7 @@ $(document).ready(function () {
     $(tambourine).click(() => {
         $(foto).remove();
         $(figura).append(`
-        <img class="db-imagen-figura_personaje" src="../assets/personajes/db/tambourine.png" alt="tambourine"></img>
+        <img class="db-imagen-figura_personaje animate__animated animate__fadeIn" src="../assets/personajes/db/tambourine.png" alt="tambourine"></img>
         `)
         foto = $(".db-imagen-figura_personaje")
     })
@@ -190,7 +190,7 @@ $(document).ready(function () {
     $(reychapa).click(() => {
         $(foto).remove();
         $(figura).append(`
-        <img class="db-imagen-figura_personaje" src="../assets/personajes/db/reychapa.png" alt="reychapa"></img>
+        <img class="db-imagen-figura_personaje animate__animated animate__fadeIn" src="../assets/personajes/db/reychapa.png" alt="reychapa"></img>
         `)
         foto = $(".db-imagen-figura_personaje")
     })
@@ -198,7 +198,7 @@ $(document).ready(function () {
     $(taopaipai).click(() => {
         $(foto).remove();
         $(figura).append(`
-        <img class="db-imagen-figura_personaje" src="../assets/personajes/db/taopaipai.png" alt="taopaipai"></img>
+        <img class="db-imagen-figura_personaje animate__animated animate__fadeIn" src="../assets/personajes/db/taopaipai.png" alt="taopaipai"></img>
         `)
         foto = $(".db-imagen-figura_personaje")
     })
@@ -206,7 +206,7 @@ $(document).ready(function () {
     $(ninjapurpura).click(() => {
         $(foto).remove();
         $(figura).append(`
-        <img class="db-imagen-figura_personaje" src="../assets/personajes/db/ninjapurpura.png" alt="ninjapurpura"></img>
+        <img class="db-imagen-figura_personaje animate__animated animate__fadeIn" src="../assets/personajes/db/ninjapurpura.png" alt="ninjapurpura"></img>
         `)
         foto = $(".db-imagen-figura_personaje")
     })
@@ -214,7 +214,7 @@ $(document).ready(function () {
     $(octavio).click(() => {
         $(foto).remove();
         $(figura).append(`
-        <img class="db-imagen-figura_personaje" src="../assets/personajes/db/octavio.png" alt="octavio"></img>
+        <img class="db-imagen-figura_personaje animate__animated animate__fadeIn" src="../assets/personajes/db/octavio.png" alt="octavio"></img>
         `)
         foto = $(".db-imagen-figura_personaje")
     })
@@ -222,7 +222,7 @@ $(document).ready(function () {
     $(comandantered).click(() => {
         $(foto).remove();
         $(figura).append(`
-        <img class="db-imagen-figura_personaje" src="../assets/personajes/db/comandantered.png" alt="comandantered"></img>
+        <img class="db-imagen-figura_personaje animate__animated animate__fadeIn" src="../assets/personajes/db/comandantered.png" alt="comandantered"></img>
         `)
         foto = $(".db-imagen-figura_personaje")
     })
@@ -230,7 +230,7 @@ $(document).ready(function () {
     $(mayorblack).click(() => {
         $(foto).remove();
         $(figura).append(`
-        <img class="db-imagen-figura_personaje" src="../assets/personajes/db/mayorblack.png" alt="mayorblack"></img>
+        <img class="db-imagen-figura_personaje animate__animated animate__fadeIn" src="../assets/personajes/db/mayorblack.png" alt="mayorblack"></img>
         `)
         foto = $(".db-imagen-figura_personaje")
     })
@@ -238,7 +238,7 @@ $(document).ready(function () {
     $(generalblue).click(() => {
         $(foto).remove();
         $(figura).append(`
-        <img class="db-imagen-figura_personaje" src="../assets/personajes/db/generalblue.png" alt="generalblue"></img>
+        <img class="db-imagen-figura_personaje animate__animated animate__fadeIn" src="../assets/personajes/db/generalblue.png" alt="generalblue"></img>
         `)
         foto = $(".db-imagen-figura_personaje")
     })
@@ -246,7 +246,7 @@ $(document).ready(function () {
     $(generalwhite).click(() => {
         $(foto).remove();
         $(figura).append(`
-        <img class="db-imagen-figura_personaje" src="../assets/personajes/db/generalwhite.png" alt="generalwhite"></img>
+        <img class="db-imagen-figura_personaje animate__animated animate__fadeIn" src="../assets/personajes/db/generalwhite.png" alt="generalwhite"></img>
         `)
         foto = $(".db-imagen-figura_personaje")
     })
@@ -254,7 +254,7 @@ $(document).ready(function () {
     $(sargentometalico).click(() => {
         $(foto).remove();
         $(figura).append(`
-        <img class="db-imagen-figura_personaje" src="../assets/personajes/db/sargentometalico.png" alt="sargentometalico"></img>
+        <img class="db-imagen-figura_personaje animate__animated animate__fadeIn" src="../assets/personajes/db/sargentometalico.png" alt="sargentometalico"></img>
         `)
         foto = $(".db-imagen-figura_personaje")
     })
@@ -262,7 +262,7 @@ $(document).ready(function () {
     $(kamisama).click(() => {
         $(foto).remove();
         $(figura).append(`
-        <img class="db-imagen-figura_personaje" src="../assets/personajes/db/kamisama.png" alt="kamisama"></img>
+        <img class="db-imagen-figura_personaje animate__animated animate__fadeIn" src="../assets/personajes/db/kamisama.png" alt="kamisama"></img>
         `)
         foto = $(".db-imagen-figura_personaje")
     })
@@ -270,7 +270,7 @@ $(document).ready(function () {
     $(anunciador).click(() => {
         $(foto).remove();
         $(figura).append(`
-        <img class="db-imagen-figura_personaje" src="../assets/personajes/db/anunciador.png" alt="anunciador"></img>
+        <img class="db-imagen-figura_personaje animate__animated animate__fadeIn" src="../assets/personajes/db/anunciador.png" alt="anunciador"></img>
         `)
         foto = $(".db-imagen-figura_personaje")
     })
@@ -278,7 +278,7 @@ $(document).ready(function () {
     $(bora).click(() => {
         $(foto).remove();
         $(figura).append(`
-        <img class="db-imagen-figura_personaje" src="../assets/personajes/db/bora.png" alt="bora"></img>
+        <img class="db-imagen-figura_personaje animate__animated animate__fadeIn" src="../assets/personajes/db/bora.png" alt="bora"></img>
         `)
         foto = $(".db-imagen-figura_personaje")
     })
@@ -286,7 +286,7 @@ $(document).ready(function () {
     $(barrykahn).click(() => {
         $(foto).remove();
         $(figura).append(`
-        <img class="db-imagen-figura_personaje" src="../assets/personajes/db/barrykahn.png" alt="barrykahn"></img>
+        <img class="db-imagen-figura_personaje animate__animated animate__fadeIn" src="../assets/personajes/db/barrykahn.png" alt="barrykahn"></img>
         `)
         foto = $(".db-imagen-figura_personaje")
     })
@@ -294,7 +294,7 @@ $(document).ready(function () {
     $(uranaibaba).click(() => {
         $(foto).remove();
         $(figura).append(`
-        <img class="db-imagen-figura_personaje" src="../assets/personajes/db/uranaibaba.png" alt="uranaibaba"></img>
+        <img class="db-imagen-figura_personaje animate__animated animate__fadeIn" src="../assets/personajes/db/uranaibaba.png" alt="uranaibaba"></img>
         `)
         foto = $(".db-imagen-figura_personaje")
     })

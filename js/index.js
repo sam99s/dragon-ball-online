@@ -16,7 +16,7 @@ $(document).ready(function () {
                 let datosObtenidos = respuesta;
                 $(btn1).hide()
                 $('.contenido1').append(`
-                <iframe class="col-2" width="100%" height="auto" src="${datosObtenidos.leccion1}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>             
+                <iframe class="col-2 animate__animated animate__fadeIn" width="100%" height="auto" src="${datosObtenidos.leccion1}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>             
                 `)
                 
             }
@@ -30,7 +30,7 @@ $(document).ready(function () {
                 $(btn2).hide();
                 $('.humo').hide();
                 $('.contenido2').append(`
-                <iframe class="col-4" width="100%" height="auto" src="${datosObtenidos.leccion2}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>             
+                <iframe class="col-4 animate__animated animate__fadeIn" width="100%" height="auto" src="${datosObtenidos.leccion2}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>             
                 `)
                 
             }
@@ -43,7 +43,7 @@ $(document).ready(function () {
                 let datosObtenidos = respuesta;
                 $(btn3).hide()
                 $('.contenido3').append(`
-                <iframe class="col-2" width="100%" height="auto" src="${datosObtenidos.leccion3}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
+                <iframe class="col-2 animate__animated animate__fadeIn" width="100%" height="auto" src="${datosObtenidos.leccion3}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
                 `)
                 
             }
@@ -56,7 +56,7 @@ $(document).ready(function () {
                 let datosObtenidos = respuesta;
                 $(btn4).hide()
                 $('.contenido4').append(`
-                <iframe class="col-2" width="100%" height="auto" src="${datosObtenidos.leccion4}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
+                <iframe class="col-2 animate__animated animate__fadeIn" width="100%" height="auto" src="${datosObtenidos.leccion4}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
                 `)
                 
             }
@@ -69,7 +69,7 @@ $(document).ready(function () {
                 let datosObtenidos = respuesta;
                 $(btn5).hide()
                 $('.contenido5').append(`
-                <iframe class="col-2" width="100%" height="auto" src="${datosObtenidos.leccion5}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
+                <iframe class="col-2 animate__animated animate__fadeIn" width="100%" height="auto" src="${datosObtenidos.leccion5}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            
                 `)
                 
             }
