@@ -1,3 +1,17 @@
+body h3 {
+  text-decoration: underline; }
+
+body .historia {
+  align-self: center; }
+  body .historia-foto {
+    height: 70vh;
+    width: auto; }
+    body .historia-foto img {
+      height: 100%;
+      width: auto; }
+  body .historia p {
+    align-self: center; }
+
 * {
   box-sizing: border-box;
   margin: 0;

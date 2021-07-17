@@ -1,0 +1,20 @@
+body{
+    h3{
+        text-decoration: underline;
+    }
+    .historia{
+        align-self: center;
+        &-foto{
+            height: 70vh;
+            width: auto;
+            img{
+                height: 100%;
+                width: auto;
+            }
+        }
+
+        p{
+            align-self: center;
+        }
+    }
+}
