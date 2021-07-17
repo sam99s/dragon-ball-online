@@ -1,0 +1,23 @@
+body{
+    .db{
+        &-personajes{
+            &-boton{
+                margin: 0.3rem;
+            }
+        }
+
+        &-imagen{
+            height: 70vh;            
+            border: 2px solid black;
+            &-figura{
+                height: 100%;
+                width: auto;
+                &_personaje{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+}

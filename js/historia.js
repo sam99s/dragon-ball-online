@@ -528,12 +528,6 @@ $(document).ready(function () {
         <br><br>    
         
         Kale, pensando que es un estorbo, se muestra celosa hacia Goku, pensando que quiere quitarle a su "hermana" y se transforma en Berserker ganando un gran odio hacia Goku, tan intenso que su ataque inicial no le importo haber lastimado a Caulifla. Ella entonces lucha personalmente Goku, siendo fácilmente capaz de resistir sus ataques y hacer retroceder al Saiyan con su fuerza. Incluso cuando Goku se convierte en Super Saiyan Azul, Kale aún tiene la ventaja, caminando a través del Kamehameha sin recibir daño alguno. Después de que Kale perdió todo razonamiento en una rabia cegadora y causó caos en todo el campo de batalla, agarró a Goku por el rostro, pero manteniendo un poco de compostura, en lugar de matarlo, lo lanza hacia un costado. Más tarde, después de que Jiren derrotara fácilmente a Kale, Goku enfrentó a Jiren y este decidió finalmente luchar contra él. Sin embargo, antes de que siquiera pudiera hacer algo, Toppo lo atacó por la espalda con un Justice Flash. Después de que emergió desde los escombros, se encuentra con Kale y Caulifla, quien esta ultima lo acusa de tratar de atacar a Kale mientras se encuentra debilitada, pero Goku inmediatamente niega estas acusaciones. Más tarde, pelea junto a Número 17, Número 18, Kale y Caulifla (aunque indirectamente) contra Casseral, Zoirei, Kettle, Tupper y Cocotte, siendo testigo como Caulifla y Kale eliminan a estos tres primeros y como 18 elimina a Tupper y Cocotte.</p>
-
-
-
-
-
-
         `)
     })
 })
