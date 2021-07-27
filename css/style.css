@@ -12,6 +12,12 @@ body .historia {
   body .historia p {
     align-self: center; }
 
+body .deseo figure {
+  width: 100%; }
+  body .deseo figure img {
+    width: 100%;
+    height: auto; }
+
 body .db-personajes-boton {
   margin: 0.3rem; }
 
