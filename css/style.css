@@ -10,13 +10,24 @@ body .historia {
       height: 100%;
       width: auto; }
   body .historia p {
-    align-self: center; }
+    align-self: center;
+    z-index: 2; }
 
 body .deseo figure {
   width: 100%; }
   body .deseo figure img {
     width: 100%;
     height: auto; }
+
+body .saga-image {
+  border-radius: 10px;
+  border: 1px black solid;
+  background: radial-gradient(#FF7F50, #FF4500); }
+  body .saga-image_character {
+    width: 100%;
+    height: auto; }
+  body .saga-image_span {
+    font-weight: 500; }
 
 body .db-personajes-boton {
   margin: 0.3rem; }

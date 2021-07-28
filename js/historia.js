@@ -47,14 +47,32 @@ $(document).ready(function () {
 
             if(character === 'Goku'){
                 msj = '¡Va a ser muy emocionante!';
+                mensaje1 = 'Vamos a  buscar las Esferas del Dragon, pero antes quiero ponerme a prueba en el torneo';
+                mensaje2 = 'Esos malditos del liston rojo querian salirse con la suya';
+                mensaje3 = 'No se de que se trata, pero suena divertido';
+                mensaje4 = 'Entrene muy duro para este torneo';
+                mensaje5 = 'No permitire que nadie destruya la tierra';
+                mensaje6 = 'Exacto asi inicie mi fantastica aventura, la misma sigue con los guerreros z';
             }
 
             if(character === 'Anunciador'){
                 msj = '¿Me eligió antes que goku?';
+                mensaje1 = '¿Estan listos para ir en busqueda de las 7 esferas?, No sin antes ver el torneo de las Artes Marciales';
+                mensaje2 = '¿Estan listos para la primer gran aventura del gran luchador Goku?';
+                mensaje3 = 'Observen el magnifico poder de Goku y sus amigos';
+                mensaje4 = '¿Sera la mejor final? Muchos hablan del épico final que nos dejaron estos dos peleadores';
+                mensaje5 = '¡Quedarse en sus hogares es la mejor opción!';
+                mensaje6 = '¿Piensan que llego el final?';
             }
 
             if(character === 'Bulma'){
                 msj = 'Vayamos a disfrutar de la historia';
+                mensaje1 = 'Pedire hacerme la mujer mas famosa de toda la tierra, espero que goku se apure';
+                mensaje2 = '¡Ten cuidado Goku!';
+                mensaje3 = '¿Cuando este niño entendera que las Esferas del Dragon son lo mas importante ahora?';
+                mensaje4 = '¡Que estas haciendo Goku!';
+                mensaje5 = 'Que bicho tan feo';
+                mensaje6 = '¡Ese es mi Goku!';
             }
 
 
@@ -78,55 +96,110 @@ $(document).ready(function () {
                 $('#eleccion').remove();
                 $(historiaDB).append(`
                     <div class="conatiner">
-                        <h3 class="col-12 mt-5">Torneo de las artes marciales</h3>
+                        <div class="container saga">
+                            <h3 class="col-12 mt-5">Torneo de las artes marciales</h3>
 
-                        <p class="col-12 mt-5">Kame Sen'nin se compromete a entrenar con Goku, sólo si éste le consigue una mujer bonita. Luego otro estudiante llamado Krilin, ayuda a Goku a cumplir la petición del maestro, solo que no era lo que esperaban ya que Lunch es una joven muy amable pero si ella llegase a estornudar, se convierte en una persona violenta y agresiva. Krilin es rival de Goku al principio, pero luego terminan siendo los mejores amigos tras el Torneo de las Artes Marciales. Luego de dos años de entrenamiento con él, en el torneo, se reunió con sus amigos Bulma, Yamcha, Oolong y Puar. Tras pasar con facilidad los preeliminares, clasifica para la ronda final junto a Krilin y Yamcha. Él pelea después, en cuartos de final, contra Giran, quien abandona tras ver la gran fuerza de Goku, y en las semifinales se enfrenta contra Nam, a quien vence tras una igualada pelea. En la batalla final lucha contra Jackie Chun, quien era en realidad su maestro disfrazado. La batalla fue muy reñida, terminando Jackie Chun como el ganador. Desde entonces Goku siempre demuestra tener un buen corazón y ser un ser muy diferente a todos los demás, ya que acepta su derrota pacíficamente.</p>
+                            <div class="container d-flex">
+                                <p class="col-10 mt-5">Kame Sen'nin se compromete a entrenar con Goku, sólo si éste le consigue una mujer bonita. Luego otro estudiante llamado Krilin, ayuda a Goku a cumplir la petición del maestro, solo que no era lo que esperaban ya que Lunch es una joven muy amable pero si ella llegase a estornudar, se convierte en una persona violenta y agresiva. Krilin es rival de Goku al principio, pero luego terminan siendo los mejores amigos tras el Torneo de las Artes Marciales. Luego de dos años de entrenamiento con él, en el torneo, se reunió con sus amigos Bulma, Yamcha, Oolong y Puar. Tras pasar con facilidad los preeliminares, clasifica para la ronda final junto a Krilin y Yamcha. Él pelea después, en cuartos de final, contra Giran, quien abandona tras ver la gran fuerza de Goku, y en las semifinales se enfrenta contra Nam, a quien vence tras una igualada pelea. En la batalla final lucha contra Jackie Chun, quien era en realidad su maestro disfrazado. La batalla fue muy reñida, terminando Jackie Chun como el ganador. Desde entonces Goku siempre demuestra tener un buen corazón y ser un ser muy diferente a todos los demás, ya que acepta su derrota pacíficamente.</p>
+                                
+                                <div class="col-2 d-block saga-image">
+                                    <figure>
+                                        <img src="../assets/historia/db/${character}1.png" class="saga-image_character" alt="${character}">
+                                    </figure>
+                                    <span class="saga-image_span">${mensaje1}</span>
+                                </div>                        
+                            </div>
+                        </div>                    
 
                         <hr>
 
-                        <h3 class="col-12 mt-5">Listón Rojo</h3>
 
-                        <p class="col-12 mt-5">Después del torneo mundial, se enfrenta al despiadado Ejército del Listón Rojo, que también busca las 7 esferas del dragón y no tienen escrúpulos en matar a cualquier persona, incluso a mujeres o niños que interfieran en su camino, aunque la mayoría puede ser porque son robots. En primer lugar, Goku derrota al Coronel Silver y termina viajando a la Aldea Jingle donde conoce a Suno. Goku pelea a través de la Torre Músculo a muchos de los esbirros del General White. Luego Goku se hace amigo de un defectuoso androide, el Androide Número 8 y derrotan al General White. Goku en la siguiente batalla derrota al General Blue, con la ayuda de Arale Norimaki. Viendo que sus mejores soldados han fracasado contra Goku, el Listón Rojo, contrató al asesino mas mortífero del mundo, Tao Pai Pai, para matarlo. Este viaja a la Tierra sagrada, donde se encontraba la torre de Karin y una bola del dragón, la cual Goku había recibido de Bora, el guardián de esta tierra, por salvar a su hijo Upa del ejército Listón Rojo. Tao Pai Pai asesina a Bora y derrota a Goku, dejándolo gravemente herido. El niño sube a la Torre de Karin, a beber el Agua ultrasagrada para volverse más fuerte y así derrotar a Tao Pai Pai, pero una vez arriba, se encuentra con el Maestro Karin, que le obligará a quitarle el agua sagrada para poder beberla. Tras tres días, Goku consigue beber el agua, la cual era agua corriente, pero el esfuerzo que supuso arrebatarle el agua al maestro Karin le sirvieron como entrenamiento y se hizo más fuerte, y a continuación, derrota a Tao Pai Pai. Luego Goku le promete a Upa que con las esferas del dragón reviviría a su padre Bora. A continuación, viaja a la Base general del ejército Listón Rojo para conseguir las 2 esferas del dragón que poseían, derrota a la mayoría de soldados y al general Black, (quien previamente había asesinado al líder de la Armada, el Comandante Red), acabando con el Listón Rojo y logra juntar al menos, seis esferas del dragón.</p>
-
-                        <hr>
-
-                        <h3 class="col-12 mt-5">Luchando con los guardianes de Uranai Baba</h3>
-
-                        <p class="col-12 mt-5">Después de la victoria de Goku sobre el Listón Rojo, todavía falta una esfera más para que puedan revivir a Bora, pero Bulma con su radar del dragón no puede encontrarla. Uranai Baba resulta no ser tan generosa, obligándolos a luchar contra sus 5 luchadores más fuertes para obtener su solicitud. Los dos primeros luchan con los amigos de Goku (Krilin, Yamcha, Upa y Puar), pero Krilin pierde el primer asalto y Yamcha es derrotado por el tercer guerrero. Goku, el último guerrero, pelea y derrota al tercer guerrero, una momia y al cuarto Guerrero, el demonio Akkuman, después de eso, Goku pelea contra el quinto guerrero, quién, tras una intensa batalla, agarró a Goku de la cola, debilitándolo. Sin embargo, acaba cortándole la cola a Goku y se rinde, rebelándose como su Abuelo Gohan, que fue traído de vuelta del otro mundo por un día, y se mostró orgulloso con el progreso de Goku. Tras haber vencido a los 5 guerreros, Uranai Baba les muestra la localización de la última esfera, la cual estaba en manos de Pilaf. Goku se enfrenta a Pilaf en su nuevo robot gigante, junto con Shu y Mai. Goku los derrota fácilmente. Con todas las esferas del dragón reunidas, Goku pide un deseo a Shen Long y revive a Bora.</p>
-
-                        <hr>
-
-                        <h3 class="col-12 mt-5">Segundo Torneo de las Artes Marciales</h3>
-
-                        <p class="col-12 mt-5">Goku pasa los tres próximos años formación por él mismo para luchar en el XXII Torneo Mundial de Artes Marciales. Por el momento en que se inicia el torneo, Goku tiene 15 años (aunque todavía se ve como un muchacho pre-adolescente). El más fuerte oponente de Goku es Tenshinhan, un guerrero entrenado por el némesis de Kame-Sen'nin, Tsuru Sen'nin (de la Escuela de la Grulla). Como Yamcha y Puar antes que ellos, Tenshinhan, junto con su mejor amigo Chaoz, se pasará finalmente a lado de Goku.
+                        <div class="container saga">
+                            <h3 class="col-12 mt-5">Listón Rojo</h3>
+                            <div class="container d-flex">
+                                <div class="card col-2" style="width: 100%;">
+                                    <img src="../assets/historia/db/${character}2.png" class="card-img-top" alt="${character}">
+                                    <div class="card-body">
+                                        <p class="card-text">${mensaje2}</p>
+                                    </div>
+                                </div>
                         
-                        <hr>
-
-                        <p class="col-12 mt-5">En los preliminares, Goku se establece contra un campeón de un torneo mundial anterior, el Rey Chapa y pasa a las rondas finales con facilidad. En los cuartos de final se enfrenta a Panputt, una famosa estrella de cine a quien vence en tan solo tres segundos. En las semifinales Goku se establece con su mejor amigo Krilin y lo derrota después de una feroz batalla. Goku pasa a la lucha contra Ten y su estilo de la Escuela de la Grulla en la ronda final. Después de que Goku es liberado de telequinesis de Chaoz, el partido continúa con normalidad hasta que Ten decide utilizar el ataque del Kikoho para destruir la plataforma. En el aire, Goku golpea a Ten utilizando un Kamehameha para rápidamente propulsar a sí mismo en el estómago de Ten. Cayendo al mismo ritmo, Goku choca primero contra el suelo después de chocar contra una camioneta, dejando a Ten como el ganador del torneo. Finalmente Tenshinhan le dice que la mitad del premio le pertenece, sin embargo Goku le dice que no sabría que hacer con el dinero, aunque después van todos a comer y seguramente solo con la comida de Goku se gastaría casi la mitad o incluso más.</p>
-
-                        <h3 class="col-12 mt-5">El regreso del Rey Demonio Piccolo</h3>
-
-                        <p class="col-12 mt-5">Después de la final de la 22º edición del Torneo Mundial de Artes Marciales, Piccolo, la mitad malvada de Kami se separa y aparece en escena. Krilin es asesinado por Tambourine, uno de los hijos del Rey Demonio Piccolo. Goku se enfada y se pone a perseguir a Tambourine quien lo lleva a los cielos, luego Goku se encuentra con Tambourine y se ponen a pelear, pero Goku es derrotado debido a que estaba cansado por el torneo.
-
-                        <br><br>
-
-                        Al tratar de recuperarse en el desierto, Goku ve a un pez gigante y se lo come, el cual pertenecía a un Samurai llamado Yajirobe quien tenia un Esfera del Dragón. Cymbal, otro hijo de Piccolo, es enviado por su padre a obtener esa Esfera, pero es asesinado por Yajirobe con su Katana. Tras la muerte de Cymbal, Piccolo envía a Tambourine ya que es mas poderoso que Cymbal para destruir a su asesino pero Goku lo derrota con un Kamehameha.
-
-                        <br><br>
-
-                        Poco después de que Piccolo aparece y furioso por la muerte de sus hijos rápidamente derrota a Goku con su ataque de Masenko. Yajirobe lleva a Goku a la Torre de Karin para que le ayuden a recuperarse. Mientras tanto, el Maestro Roshi y Chaoz intentan detener a Piccolo para que no obtenga las Esferas del Dragón, pero cometen un error y mueren en el intento. Piccolo luego destruye a Shen Long y saca al Rey del Mundo del Palacio, en un intento de dominar el mundo.Una vez que se haya producido la curación de Goku él se dirige afuera en una búsqueda para encontrar el Agua Ultra divina, un líquido sagrado que desencadena poderes ocultos del bebedor si presentan alguno, o los mata. Goku bebe el agua y sobrevive, entonces se dirige al castillo del Rey del mundo donde encuentra al hijo más reciente del Rey Demonio Piccolo, Drum derrota hasta a Tien. Goku derrota a Drum y reta a Piccolo Daimaoh a una batalla. Hacia el final de la lucha Piccolo Daimaoh utiliza a Tien como rehén, intentando forzar a Goku a rendirse. Goku casi reanuda la lucha a pesar del hecho de que Tien morirá, pensando que podría revivir a Tien con las Esferas del Dragón, hasta que Piccolo le dice que había destruido a Shen Long. Esto deja Goku a merced de Piccolo. Goku termina con un brazo roto y dos piernas rotas. Como Piccolo lleva a Goku a los cielos para su ataque final, Goku, lleno de ira por el hecho de que Krilin y Kame-Sen'nin han desaparecido para siempre, se lanza plenamente a sí mismo con un Kamehameha en Piccolo, para perforar un agujero a través de su pecho y matarlo. Momentos antes de la muerte del Rey Demonio Piccolo, sin embargo, escupe a un huevo lejos en la distancia que contiene su hijo final y su reencarnación, Piccolo</p>
+                                <p class="col-10 mt-5">Después del torneo mundial, se enfrenta al despiadado Ejército del Listón Rojo, que también busca las 7 esferas del dragón y no tienen escrúpulos en matar a cualquier persona, incluso a mujeres o niños que interfieran en su camino, aunque la mayoría puede ser porque son robots. En primer lugar, Goku derrota al Coronel Silver y termina viajando a la Aldea Jingle donde conoce a Suno. Goku pelea a través de la Torre Músculo a muchos de los esbirros del General White. Luego Goku se hace amigo de un defectuoso androide, el Androide Número 8 y derrotan al General White. Goku en la siguiente batalla derrota al General Blue, con la ayuda de Arale Norimaki.</p>
+                                
+                            </div>                                                        
+                            <p class="col-12 mt-5">Viendo que sus mejores soldados han fracasado contra Goku, el Listón Rojo, contrató al asesino mas mortífero del mundo, Tao Pai Pai, para matarlo. Este viaja a la Tierra sagrada, donde se encontraba la torre de Karin y una bola del dragón, la cual Goku había recibido de Bora, el guardián de esta tierra, por salvar a su hijo Upa del ejército Listón Rojo. Tao Pai Pai asesina a Bora y derrota a Goku, dejándolo gravemente herido. El niño sube a la Torre de Karin, a beber el Agua ultrasagrada para volverse más fuerte y así derrotar a Tao Pai Pai, pero una vez arriba, se encuentra con el Maestro Karin, que le obligará a quitarle el agua sagrada para poder beberla. Tras tres días, Goku consigue beber el agua, la cual era agua corriente, pero el esfuerzo que supuso arrebatarle el agua al maestro Karin le sirvieron como entrenamiento y se hizo más fuerte, y a continuación, derrota a Tao Pai Pai. Luego Goku le promete a Upa que con las esferas del dragón reviviría a su padre Bora. A continuación, viaja a la Base general del ejército Listón Rojo para conseguir las 2 esferas del dragón que poseían, derrota a la mayoría de soldados y al general Black, (quien previamente había asesinado al líder de la Armada, el Comandante Red), acabando con el Listón Rojo y logra juntar al menos, seis esferas del dragón.</p>
+                        </div>
 
                         <hr>
 
-                        <h3 class="col-12 mt-5">Adolescencia</h3>
+                        <div class="container saga">
+                            <h3 class="col-12 mt-5">Luchando con los guardianes de Uranai Baba</h3>
+                            <div class="container d-flex">
+                                <div class="col-2 d-block saga-image align-self-center">
+                                    <img src="../assets/historia/db/${character}3.png" class="saga-image_character" alt="${character}">
+                                    <span class="saga-image_span">${mensaje3}</span>
+                                </div>
+                                <p class="col-10 mt-5">Después de la victoria de Goku sobre el Listón Rojo, todavía falta una esfera más para que puedan revivir a Bora, pero Bulma con su radar del dragón no puede encontrarla. Uranai Baba resulta no ser tan generosa, obligándolos a luchar contra sus 5 luchadores más fuertes para obtener su solicitud. Los dos primeros luchan con los amigos de Goku (Krilin, Yamcha, Upa y Puar), pero Krilin pierde el primer asalto y Yamcha es derrotado por el tercer guerrero. Goku, el último guerrero, pelea y derrota al tercer guerrero, una momia y al cuarto Guerrero, el demonio Akkuman, después de eso, Goku pelea contra el quinto guerrero, quién, tras una intensa batalla, agarró a Goku de la cola, debilitándolo. Sin embargo, acaba cortándole la cola a Goku y se rinde, rebelándose como su Abuelo Gohan, que fue traído de vuelta del otro mundo por un día, y se mostró orgulloso con el progreso de Goku. Tras haber vencido a los 5 guerreros, Uranai Baba les muestra la localización de la última esfera, la cual estaba en manos de Pilaf. Goku se enfrenta a Pilaf en su nuevo robot gigante, junto con Shu y Mai. Goku los derrota fácilmente. Con todas las esferas del dragón reunidas, Goku pide un deseo a Shen Long y revive a Bora.</p>
+                            </div>
+                        </div>
 
-                        <p class="col-12 mt-5">Goku entrena con Kami y luego de algunos años baja de la torre para participar en el 23º Torneo de las Artes Marciales. Allí hay un participante llamado Ma Junior, que luego resulta ser Piccolo, el hijo del Rey Demonio Piccolo. Es precisamente en este Torneo donde se reencuentra con la que será su esposa, la princesa Chi-Chi, después de haberse visto por última vez cuando aún eran niños. Al principio no la reconoce, ya que se ha convertido en una hermosa joven, lo que provoca el enfado de la chica, que culmina en una emotiva pelea entre ambos, en la que la revela a Goku la promesa que de niño le hiciera, que algún día la tomaría como esposa. Es así como un joven e inocente Goku toma la determinación de pedirle matrimonio a Chi-Chi, sin siquiera saber lo que es una esposa y menos aún, un matrimonio. Pero sin importar su juventud, se compromete con la que será su compañera para toda la vida, y la madre de sus dos hijos. Goku lucha contra Piccolo en la final del torneo, ambos tienen las mismas fuerzas, pero Piccolo está en ventaja, ya que Goku teme que al matar a Piccolo también muera Kami, tras luchar un rato, Piccolo vuela hacia el cielo y amenaza con matar a todos los espectadores del torneo con un ataque de energía, Piccolo lo lanza y Goku lo reflecta hacia Piccolo con un Super Kamehameha, Piccolo termina con la ropa destrozada y el público se da cuenta de que es el hijo del Rey Demonio Piccolo, lo que provoca que los espectadores huyan presos del terror y Piccolo se hace gigante, Goku entra en su interior, rescata a Kami y luego le ataca con mucha fuerza, se cree que Goku ha ganado, Piccolo se levanta y le atraviesa el pecho a Goku, luego le inmoviliza las extremidades, pero Goku cae del cielo y empuja a Piccolo con muchas fuerzas y lo saca fuera de la plataforma, ganando la lucha. Goku le perdona la vida y se convierte por primera vez en ganador del Torneo de las Artes Marciales. Después de esto se celebra su matrimonio con Chi-Chi y un año más tarde nacería su hijo primogénito, y lo acaban llamando Son Gohan en honor a su difunto abuelo.</p>
+                        <hr>
+
+                        <div class="container saga">
+                            <h3 class="col-12 mt-5">Segundo Torneo de las Artes Marciales</h3>
+                            <div class="container">
+                                <p class="col-12 mt-5">Goku pasa los tres próximos años formación por él mismo para luchar en el XXII Torneo Mundial de Artes Marciales. Por el momento en que se inicia el torneo, Goku tiene 15 años (aunque todavía se ve como un muchacho pre-adolescente). El más fuerte oponente de Goku es Tenshinhan, un guerrero entrenado por el némesis de Kame-Sen'nin, Tsuru Sen'nin (de la Escuela de la Grulla). Como Yamcha y Puar antes que ellos, Tenshinhan, junto con su mejor amigo Chaoz, se pasará finalmente a lado de Goku.</p>
+
+                                <div class="container d-flex align-items-center">
+                                    <div class="col-2 d-block saga-image">
+                                        <img src="../assets/historia/db/${character}4.png" class="saga-image_character" alt="${character}">
+                                        <span class="saga-image_span">${mensaje4}</span>
+                                    </div>
+                                
+                                    <p class="col-10 mt-5">En los preliminares, Goku se establece contra un campeón de un torneo mundial anterior, el Rey Chapa y pasa a las rondas finales con facilidad. En los cuartos de final se enfrenta a Panputt, una famosa estrella de cine a quien vence en tan solo tres segundos. En las semifinales Goku se establece con su mejor amigo Krilin y lo derrota después de una feroz batalla. Goku pasa a la lucha contra Ten y su estilo de la Escuela de la Grulla en la ronda final. Después de que Goku es liberado de telequinesis de Chaoz, el partido continúa con normalidad hasta que Ten decide utilizar el ataque del Kikoho para destruir la plataforma. En el aire, Goku golpea a Ten utilizando un Kamehameha para rápidamente propulsar a sí mismo en el estómago de Ten. Cayendo al mismo ritmo, Goku choca primero contra el suelo después de chocar contra una camioneta, dejando a Ten como el ganador del torneo. Finalmente Tenshinhan le dice que la mitad del premio le pertenece, sin embargo Goku le dice que no sabría que hacer con el dinero, aunque después van todos a comer y seguramente solo con la comida de Goku se gastaría casi la mitad o incluso más.</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <div class="container saga">
+                            <h3 class="col-12 mt-5">El regreso del Rey Demonio Piccolo</h3>
+                            <div class="container">                                                                
+                                <p class="col-12 mt-5">Después de la final de la 22º edición del Torneo Mundial de Artes Marciales, Piccolo, la mitad malvada de Kami se separa y aparece en escena. Krilin es asesinado por Tambourine, uno de los hijos del Rey Demonio Piccolo. Goku se enfada y se pone a perseguir a Tambourine quien lo lleva a los cielos, luego Goku se encuentra con Tambourine y se ponen a pelear, pero Goku es derrotado debido a que estaba cansado por el torneo.</p>
+                                
+                                <p class="col-12 mt-5">Al tratar de recuperarse en el desierto, Goku ve a un pez gigante y se lo come, el cual pertenecía a un Samurai llamado Yajirobe quien tenia un Esfera del Dragón. Cymbal, otro hijo de Piccolo, es enviado por su padre a obtener esa Esfera, pero es asesinado por Yajirobe con su Katana. Tras la muerte de Cymbal, Piccolo envía a Tambourine ya que es mas poderoso que Cymbal para destruir a su asesino pero Goku lo derrota con un Kamehameha.</p>
+
+                                <div class="container d-flex">
+                                    <span class="col-5"></span>
+                                    <div class="col-2 saga-image">
+                                        <img src="../assets/historia/db/${character}5.png" class="saga-image_character" alt="${character}">
+                                        <span class="saga-image_span">${mensaje5}</span>
+                                    </div>
+                                    <span class="col-5"></span>
+                                </div>
+                                
+                                <p class="col-12 mt-5">Poco después de que Piccolo aparece y furioso por la muerte de sus hijos rápidamente derrota a Goku con su ataque de Masenko. Yajirobe lleva a Goku a la Torre de Karin para que le ayuden a recuperarse. Mientras tanto, el Maestro Roshi y Chaoz intentan detener a Piccolo para que no obtenga las Esferas del Dragón, pero cometen un error y mueren en el intento. Piccolo luego destruye a Shen Long y saca al Rey del Mundo del Palacio, en un intento de dominar el mundo.Una vez que se haya producido la curación de Goku él se dirige afuera en una búsqueda para encontrar el Agua Ultra divina, un líquido sagrado que desencadena poderes ocultos del bebedor si presentan alguno, o los mata. Goku bebe el agua y sobrevive, entonces se dirige al castillo del Rey del mundo donde encuentra al hijo más reciente del Rey Demonio Piccolo, Drum derrota hasta a Tien. Goku derrota a Drum y reta a Piccolo Daimaoh a una batalla. Hacia el final de la lucha Piccolo Daimaoh utiliza a Tien como rehén, intentando forzar a Goku a rendirse. Goku casi reanuda la lucha a pesar del hecho de que Tien morirá, pensando que podría revivir a Tien con las Esferas del Dragón, hasta que Piccolo le dice que había destruido a Shen Long. Esto deja Goku a merced de Piccolo. Goku termina con un brazo roto y dos piernas rotas. Como Piccolo lleva a Goku a los cielos para su ataque final, Goku, lleno de ira por el hecho de que Krilin y Kame-Sen'nin han desaparecido para siempre, se lanza plenamente a sí mismo con un Kamehameha en Piccolo, para perforar un agujero a través de su pecho y matarlo. Momentos antes de la muerte del Rey Demonio Piccolo, sin embargo, escupe a un huevo lejos en la distancia que contiene su hijo final y su reencarnación, Piccolo</p>
+                            </div>
+                        </div>
+
+                        <hr>
+
+                        <div class="container saga">
+                            <h3 class="col-12 mt-5">Adolescencia</h3>
+                            <div class="container d-flex">
+                                <p class="col-8 mt-5">Goku entrena con Kami y luego de algunos años baja de la torre para participar en el 23º Torneo de las Artes Marciales. Allí hay un participante llamado Ma Junior, que luego resulta ser Piccolo, el hijo del Rey Demonio Piccolo. Es precisamente en este Torneo donde se reencuentra con la que será su esposa, la princesa Chi-Chi, después de haberse visto por última vez cuando aún eran niños. Al principio no la reconoce, ya que se ha convertido en una hermosa joven, lo que provoca el enfado de la chica, que culmina en una emotiva pelea entre ambos, en la que la revela a Goku la promesa que de niño le hiciera, que algún día la tomaría como esposa. Es así como un joven e inocente Goku toma la determinación de pedirle matrimonio a Chi-Chi, sin siquiera saber lo que es una esposa y menos aún, un matrimonio. Pero sin importar su juventud, se compromete con la que será su compañera para toda la vida, y la madre de sus dos hijos. Goku lucha contra Piccolo en la final del torneo, ambos tienen las mismas fuerzas, pero Piccolo está en ventaja, ya que Goku teme que al matar a Piccolo también muera Kami, tras luchar un rato, Piccolo vuela hacia el cielo y amenaza con matar a todos los espectadores del torneo con un ataque de energía, Piccolo lo lanza y Goku lo reflecta hacia Piccolo con un Super Kamehameha, Piccolo termina con la ropa destrozada y el público se da cuenta de que es el hijo del Rey Demonio Piccolo, lo que provoca que los espectadores huyan presos del terror y Piccolo se hace gigante, Goku entra en su interior, rescata a Kami y luego le ataca con mucha fuerza, se cree que Goku ha ganado, Piccolo se levanta y le atraviesa el pecho a Goku, luego le inmoviliza las extremidades, pero Goku cae del cielo y empuja a Piccolo con muchas fuerzas y lo saca fuera de la plataforma, ganando la lucha. Goku le perdona la vida y se convierte por primera vez en ganador del Torneo de las Artes Marciales. Después de esto se celebra su matrimonio con Chi-Chi y un año más tarde nacería su hijo primogénito, y lo acaban llamando Son Gohan en honor a su difunto abuelo.</p>
+
+                                <div class="col-4 saga-image" style="margin-bottom: 3rem;">
+                                    <img src="../assets/historia/db/${character}6.png" class="saga-image_character" alt="${character}">
+                                    <span class="saga-image_span">${mensaje6}</span>
+                                </div>                                
+                            </div>
+                        </div>
                     </div>                
                 `)
-            })
-
-            
-
+            })    
         
         })
 

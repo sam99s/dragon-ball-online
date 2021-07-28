@@ -15,6 +15,7 @@ body{
 
         p{
             align-self: center;
+            z-index: 2;
         }
     }
 
@@ -27,4 +28,21 @@ body{
             }
         }
     }
+
+    .saga{
+        &-image{
+            border-radius: 10px;
+            border: 1px black solid;
+            background: radial-gradient(#FF7F50,#FF4500);
+            &_character{
+                width: 100%;
+                height: auto;
+            }
+    
+            &_span{
+                font-weight: 500;
+            }
+        }
+        }
+
 }
