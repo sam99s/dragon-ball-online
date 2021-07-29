@@ -29,6 +29,18 @@ body .saga-image {
   body .saga-image_span {
     font-weight: 500; }
 
+body .dragonBallZ-contenido {
+  position: relative; }
+  body .dragonBallZ-contenido #botonesZ {
+    position: fixed;
+    margin-right: 3rem;
+    right: 2rem;
+    top: 50%;
+    bottom: 50%; }
+
+body footer {
+  margin-top: 5rem; }
+
 body .db-personajes-boton {
   margin: 0.3rem; }
 
@@ -58,16 +70,27 @@ body {
   overflow-x: hidden;
   /* Header */
   /* Secciones */ }
-  body header, body footer {
+  body header {
     background: #FF5140; }
-    body header figure, body footer figure {
+    body header figure {
       width: 20vw; }
-      body header figure .logo, body footer figure .logo {
+      body header figure .logo {
         width: 80%;
         height: auto; }
-    body header .navegacion, body footer .navegacion {
+    body header .navegacion {
       width: 70vw;
       background: transparent; }
+  body footer {
+    width: 100%;
+    height: 20vh;
+    position: relative;
+    bottom: 0;
+    background: #FF5140; }
+    body footer figure .logoF {
+      height: 100px;
+      width: auto; }
+    body footer figure .formularioAPI {
+      width: 100%; }
   body .seccion1 figure, body .seccion2 figure {
     width: 100%; }
     body .seccion1 figure img, body .seccion2 figure img {

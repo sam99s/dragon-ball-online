@@ -62,7 +62,7 @@ $(document).ready(function () {
                 mensaje3 = 'Observen el magnifico poder de Goku y sus amigos';
                 mensaje4 = '¿Sera la mejor final? Muchos hablan del épico final que nos dejaron estos dos peleadores';
                 mensaje5 = '¡Quedarse en sus hogares es la mejor opción!';
-                mensaje6 = '¿Piensan que llego el final?';
+                mensaje6 = '¿Piensan que llego el final? ¡Ahora viene lo mejor, no se muevan de sus asientos!';
             }
 
             if(character === 'Bulma'){
@@ -117,16 +117,16 @@ $(document).ready(function () {
                         <div class="container saga">
                             <h3 class="col-12 mt-5">Listón Rojo</h3>
                             <div class="container d-flex">
-                                <div class="card col-2" style="width: 100%;">
-                                    <img src="../assets/historia/db/${character}2.png" class="card-img-top" alt="${character}">
-                                    <div class="card-body">
-                                        <p class="card-text">${mensaje2}</p>
-                                    </div>
+                                <div class="col-2 d-block saga-image">
+                                    <figure>
+                                        <img src="../assets/historia/db/${character}2.png" class="saga-image_character" alt="${character}">
+                                    </figure>
+                                    <span class="saga-image_span">${mensaje2}</span>
                                 </div>
                         
-                                <p class="col-10 mt-5">Después del torneo mundial, se enfrenta al despiadado Ejército del Listón Rojo, que también busca las 7 esferas del dragón y no tienen escrúpulos en matar a cualquier persona, incluso a mujeres o niños que interfieran en su camino, aunque la mayoría puede ser porque son robots. En primer lugar, Goku derrota al Coronel Silver y termina viajando a la Aldea Jingle donde conoce a Suno. Goku pelea a través de la Torre Músculo a muchos de los esbirros del General White. Luego Goku se hace amigo de un defectuoso androide, el Androide Número 8 y derrotan al General White. Goku en la siguiente batalla derrota al General Blue, con la ayuda de Arale Norimaki.</p>
-                                
-                            </div>                                                        
+                                <p class="col-10 mt-5">Después del torneo mundial, se enfrenta al despiadado Ejército del Listón Rojo, que también busca las 7 esferas del dragón y no tienen escrúpulos en matar a cualquier persona, incluso a mujeres o niños que interfieran en su camino, aunque la mayoría puede ser porque son robots. En primer lugar, Goku derrota al Coronel Silver y termina viajando a la Aldea Jingle donde conoce a Suno. Goku pelea a través de la Torre Músculo a muchos de los esbirros del General White. Luego Goku se hace amigo de un defectuoso androide, el Androide Número 8 y derrotan al General White. Goku en la siguiente batalla derrota al General Blue, con la ayuda de Arale Norimaki.</p>                                
+                            </div>
+                                                                                    
                             <p class="col-12 mt-5">Viendo que sus mejores soldados han fracasado contra Goku, el Listón Rojo, contrató al asesino mas mortífero del mundo, Tao Pai Pai, para matarlo. Este viaja a la Tierra sagrada, donde se encontraba la torre de Karin y una bola del dragón, la cual Goku había recibido de Bora, el guardián de esta tierra, por salvar a su hijo Upa del ejército Listón Rojo. Tao Pai Pai asesina a Bora y derrota a Goku, dejándolo gravemente herido. El niño sube a la Torre de Karin, a beber el Agua ultrasagrada para volverse más fuerte y así derrotar a Tao Pai Pai, pero una vez arriba, se encuentra con el Maestro Karin, que le obligará a quitarle el agua sagrada para poder beberla. Tras tres días, Goku consigue beber el agua, la cual era agua corriente, pero el esfuerzo que supuso arrebatarle el agua al maestro Karin le sirvieron como entrenamiento y se hizo más fuerte, y a continuación, derrota a Tao Pai Pai. Luego Goku le promete a Upa que con las esferas del dragón reviviría a su padre Bora. A continuación, viaja a la Base general del ejército Listón Rojo para conseguir las 2 esferas del dragón que poseían, derrota a la mayoría de soldados y al general Black, (quien previamente había asesinado al líder de la Armada, el Comandante Red), acabando con el Listón Rojo y logra juntar al menos, seis esferas del dragón.</p>
                         </div>
 
@@ -219,168 +219,252 @@ $(document).ready(function () {
         $(historiaDBZ).append(`
         <h2 class="col-12 text-center mt-5">Dragon Ball Z</h2>
 
-        <h3 class="col-12 mt-5">El ataque de los Saiyan</h3>
+        <div class="container-fluid dragonBallZ-contenido d-flex">
 
-        <p class="col-12 mt-5">Después de salvar a Gohan de caer por una cascada, Goku llega a Kame House con su hijo, para presentarle a Bulma, Kame-Sen'nin y Krilin. Todo parece estar bien, pero de repente, Goku percibe un enorme poder acercándose. La nueva amenaza llega desde el espacio; se trata de Raditz, el hermano mayor de Goku. Raditz le revela a Goku que pertenece a la raza guerrera de los Saiyan, y le informa que fue enviado originalmente a la Tierra para destruir a los habitantes del planeta y prepararla para ser vendida, pero se había olvidado de ella debido a su golpe en la cabeza en su infancia. Cuando Goku se opone a llevar a cabo su misión olvidada, Raditz lo derrota con solo un golpe en el estomago de Goku, derribándole, y secuestra a Gohan, dándole a Goku un última opción: asesinar a un centenar de humanos dentro de las próximas veinticuatro horas, y dejarlos en la orilla de la playa, o sino mataría a Gohan.
+            <div class="col-10 d-block">
 
-        <br><br>
+                <h3 class="col-12 mt-5">El ataque de los Saiyan</h3>
 
-        Para derrotar a Raditz y salvar la Tierra, Krilin y Kame-Sen'nin se ofrecen a ayudar a enfrentarlo, pero Goku no acepta su ayuda, debido al hecho de que si mueren de nuevo, no podrán volver a la vida, ya que fueron asesinados. Piccolo, que había estado escuchando todo lo dicho por Raditz mientras estaba escondido detrás de Kame House, le ofrece a Goku realizar una alianza temporal para luchar contra el Saiyan, por lo que se unen. Cuando Piccolo y Goku aparecen ante Raditz con Gohan encerrado en su nave espacial, Goku le da a Raditz una última oportunidad para liberar a su hijo, pero Raditz se niega. Tanto Goku como Piccolo se quitan su ropa pesada para comenzar la pelea. Incluso con sus fuerzas combinadas, Raditz aún mantiene la ventaja. Con la ayuda de Gohan que desata su poder escondido para atacar a Raditz y debilitarlo, Goku y Piccolo son capaces de completar un plan para ganar.
+                <p class="col-10 mt-5">Después de salvar a Gohan de caer por una cascada, Goku llega a Kame House con su hijo, para presentarle a Bulma, Kame-Sen'nin y Krilin. Todo parece estar bien, pero de repente, Goku percibe un enorme poder acercándose. La nueva amenaza llega desde el espacio; se trata de Raditz, el hermano mayor de Goku. Raditz le revela a Goku que pertenece a la raza guerrera de los Saiyan, y le informa que fue enviado originalmente a la Tierra para destruir a los habitantes del planeta y prepararla para ser vendida, pero se había olvidado de ella debido a su golpe en la cabeza en su infancia. Cuando Goku se opone a llevar a cabo su misión olvidada, Raditz lo derrota con solo un golpe en el estomago de Goku, derribándole, y secuestra a Gohan, dándole a Goku un última opción: asesinar a un centenar de humanos dentro de las próximas veinticuatro horas, y dejarlos en la orilla de la playa, o sino mataría a Gohan.
+
+                <br><br>
+
+                Para derrotar a Raditz y salvar la Tierra, Krilin y Kame-Sen'nin se ofrecen a ayudar a enfrentarlo, pero Goku no acepta su ayuda, debido al hecho de que si mueren de nuevo, no podrán volver a la vida, ya que fueron asesinados. Piccolo, que había estado escuchando todo lo dicho por Raditz mientras estaba escondido detrás de Kame House, le ofrece a Goku realizar una alianza temporal para luchar contra el Saiyan, por lo que se unen. Cuando Piccolo y Goku aparecen ante Raditz con Gohan encerrado en su nave espacial, Goku le da a Raditz una última oportunidad para liberar a su hijo, pero Raditz se niega. Tanto Goku como Piccolo se quitan su ropa pesada para comenzar la pelea. Incluso con sus fuerzas combinadas, Raditz aún mantiene la ventaja. Con la ayuda de Gohan que desata su poder escondido para atacar a Raditz y debilitarlo, Goku y Piccolo son capaces de completar un plan para ganar.
+                
+                <br><br>
+
+                Goku hace el último sacrificio sujetando a Raditz para que Piccolo acabara con ambos con su poderoso ataque Makankosappo, atravesando a ambos. Sin embargo, antes de morir, Raditz le revela a Piccolo y Goku que dos Saiyan aún más poderosos que él, Vegeta y Nappa, están en camino a la Tierra, y llegarán en un año. Con Krilin a su lado, Goku muere, y Kami lo lleva al otro mundo donde conoce a Enma Daio, quien le dice que puede atravesar el Camino de la Serpiente y así llegar al planeta de Kaio del Norte donde será entrenado por este para poder derrotar a los Saiyan. En su viaje, conoce y escapa de la Princesa Serpiente e incluso escapa del Infierno, tras caerse del camino, teniendo que comenzar de nuevo todo el recorrido (esto solo sucede en el anime).
+                
+                <br><br>
+
+                Cuando Goku finalmente llega al planeta del Kaio del Norte, él lo confunde con un simio, Bubbles, y él imita las acciones del mono hasta que conoce al verdadero Kaio. Así tiene que superar desafíos ridículos antes de comenzar su entrenamiento, como contarle un chiste al Kaio, atrapar a Bubbles y golpear a su otro acompañante, Gregory, con un martillo en la cabeza. Debido a la gravedad aumentada del planeta, Goku tiene dificultad con los retos, pero con el tiempo logra completarlos. Después de eso, Goku aprende varias técnicas nuevas y aumenta su poder considerablemente. Sus amigos en la Tierra se las arreglan para volverlo a la vida usando las esferas del dragón, pero Kaio se olvidó tener en cuenta el tiempo que tardaría en volver. Así Goku se apresura en completar el Camino de la Serpiente, lo cual Kaio estima que ahora tardaría alrededor de dos días en recorrerlo y unirse a la pelea contra los Saiyan.
+                
+                <br><br>
+
+                En el momento en que Goku llega, solamente Krilin y Gohan seguían vivos. Al llegar, salva a su hijo de ser aplastado por Nappa, y es informado que sus amigos murieron, enfureciéndose, sorprendiendo a Vegeta con su nuevo poder. Para sorpresa de todos, Goku se había vuelto lo suficientemente fuerte como para derrotar a Nappa sin mucha dificultad, evitando sus ataques, y por último, detener su ataque más poderoso sin ningún problema. Cuando Nappa se dirigía a matar a Krilin y Gohan, Goku rompe la espalda de Nappa con el Kaio-ken y lo deja en el suelo, pero es Vegeta quien lo mata al final. Cuando Goku comienza su pelea con Vegeta, incluso el Kaio-ken aumentado dos veces no funciona. Goku, en un intento desesperado, utiliza el Kaio-ken aumentado tres veces, y vence a Vegeta al ponerse a su nivel de fuerza por breves momentos. Furioso, Vegeta trata de destruir el planeta con su ataque Galick Ho, Goku le responde con un Kamehameha y, tras usar el Kaio-Ken aumentado cuatro veces, logra devolverle el ataque pero le ocasiona a su cuerpo mucho dolor.
+                
+                <br><br>
+                
+                Cuando Vegeta regresa, se transforma en Ōzaru usando una Luna Artificial, y Goku se da cuenta de que él mismo fue quien asesinó a su abuelo, y se disculpa por ello, con la esperanza de que lo perdonara. Tras una larga batalla, Vegeta es finalmente derrotado con la intervención oportuna de Krilin, Gohan y Yajirobe. Sin embargo Goku termino brutalmente lastimado, con sus piernas rotas por Vegeta en su forma de Ōzaru . Después de la pelea, Krilin intenta tomar la vida de Vegeta usando la espada de Yajirobe, pero es detenido por Goku, quien lo convence de que le perdonara la vida y prometiendo que sería él quien lo derrotara la próxima vez.</p>
+
+                <h3 class="col-12 mt-5">Saga Freezer</h3>
+
+                <p class="col-10 mt-5">Después de la batalla con Vegeta, Goku está gravemente herido, y Karin todavía no tiene Semillas del Ermitaño, por lo que Goku tiene que quedarse en el hospital mientras que Bulma, Gohan y Krilin se dirigen al planeta Namek para encontrar las esferas del dragón para revivir a sus amigos caídos. Después de unas semanas, Karin envía a Yajirobe a darle a Goku algunas semillas que acaban de crecer, que lo cura completamente. Goku, una vez recuperado y enterado de la crisis por la que atraviesa el Planeta Namek, entonces utiliza la nueva nave espacial que le pidió al Dr. Brief, que construyó a partir de la nave con la que Goku llego a la Tierra, y se dirige a Namek.
+                
+                <br><br>
+
+                Durante su viaje a Namek, Goku entrena en diversos niveles de gravedad pero la máquina de gravedad artificial de la nave comienza a funcionar mal, haciendo que la aumente 100 veces, casi aplastando a Goku. Finalmente Goku es capaz de arreglar la gravedad con el control de la máquina, sin embargo, decide seguir entrenando en ese entorno para entrenar y poder hacer frente a Freezer. En un momento Kaio le aconseja alejarse de Freezer, llamándolo el ser más poderoso del universo, y que no tendría ninguna oportunidad contra él.
+
+                <br><br>
+                
+                Al llegar a Namek, una vez más, Goku entra en una batalla, donde se encontraba luchando Gohan, Krilin y Vegeta contra Recoom, miembro de las Fuerzas Especiales Ginyu. Goku cura a los tres con Semillas del Ermitaño, y muestra su nuevo poder derrotando fácilmente a Recoom, y luego se enfrenta solo a Burter y Jeice. Goku los engaño haciéndolos pensar que su nivel de pelea era de 5.000, aumentando su nivel rápidamente para atacar. Después de esquivar varios ataques, Goku derrota a Burter y deja ir a Jeice, que rápidamente trae al capitán Ginyu, quien tiene la habilidad de cambiar de cuerpo con cualquier persona que crea conveniente.
+
+                <br><br>
+                
+                Después de un pequeño calentamiento, Goku supera al capitán Ginyu, asustando con su nivel de pelea a Ginyu y Jeice, ya que era mucho más alto que el de ellos. Golpeándose a sí mismo antes, el capitán Ginyu intercambia cuerpos con el de Goku, pero no es capaz de controlar totalmente su nuevo cuerpo y su poder. Vegeta aprovecha esta oportunidad para humillar a Ginyu, hiriendo gravemente el cuerpo de Goku. Goku se las arregla para conseguir su cuerpo de regreso después de interceptar un rayo enviado por el capitán Ginyu que pensaba conseguir el cuerpo de Vegeta. El cuerpo de Goku queda muy lastimo, así que utilizan una máquina médica dentro de la nave espacial de Freezer que le sana aunque esto tarda un poco. 
+
+                <br><br>
+                
+                Cuando sale, una vez más, se une a la batalla contra Freezer, donde Vegeta es torturado por Freezer. Goku escucha las últimas palabras de Vegeta, que le hablan sobre como Freezer utilizo y se deshizo de los Saiyan, hasta que muere y lo entierra pidiendo que le diera un poco de su orgullo Saiyan. Lleno de ira, declara que va a derrotar a Freezer en nombre de los Saiyan y namekianos que asesinó. La batalla comienza estando Goku confiado de sus habilidades, pero Freezer comienza a mostrar más de su poder superándolo fácilmente. Incluso con Freezer otorgándole ventaja (como no usar las manos), Goku todavía no puede igualar al tirano. Incluso la combinación del Kaio-ken x20 y su Kamehameha no tiene ningún efecto, Freezer comienza a golpear a Goku, entonces recuerda que todavía tiene la Genki-dama, y decide reunir la energía necesaria, quedándose de pie con los brazos levantados. Piccolo (que había sido resucitado y fue transportado a Namek para ayudar), Gohan y Krilin intentan distraer a Freezer de Goku para que pudiera reunir la energía. Por último, con todas sus fuerzas, Goku lanza el ataque, que impacta a un Freezer que pensaba destruir el planeta, y aparentemente desaparecer, junto con una buena porción de Namek en la devastadora explosión.
+
+                <br><br>
+                
+                Cansado Goku comienza a reír, junto con sus amigos, que creen que Freezer finalmente fue derrotado. Pero incluso el ataque más poderoso de Goku, la gran Genki-dama, no pudo matar a Freezer. Por último, cuando Freezer asesina a Krilin y hiere de gravedad a Piccolo, Goku, con ira extrema, libera sus reservas de energía interna y se transforma en un Super Saiyan. El combate se reanuda, superando completamente a Freezer, incluso cuando utiliza el 100% de su poder. En su desesperación, Freezer lanza una ráfaga de energía contra el núcleo de Namek, causando una reacción en cadena que destruirá el planeta en cinco minutos dicho por el mismo Freezer. Durante la lucha siguiente, Freezer utiliza el ataque de platillos cortantes, creando dos discos rosados que siguen a su oponente. Goku se mueve demasiado rápido para ser alcanzado por el ataque y maniobra para que Freezer esté entre él y los discos. Goku grita advirtiendo a Freezer, pero Freezer es demasiado lento y es cortado por la mitad, perdiendo un brazo, sus piernas y parte de su cola. Estando débil él, ruega a Goku para que lo ayude. Goku, creyendo que Freezer no merecía ser perdonado, le da un poco de su energía como una muestra de misericordia. Amargo por su derrota, Freezer utiliza el poder prestado para lanzar por la espalda un poderoso ataque a Goku. Sin embargo, Goku se da cuenta del ataque y contraataca a Freezer, derrotándolo.
+
+                <br><br>
+                
+                Goku vuela a la nave espacial de Freezer y presiona todos los botones para tratar de hacer que la nave despegara, sin embargo, no funciona y la nave espacial cae en la lava. Por suerte, logra escapar rápidamente de Namek usando una de las naves espaciales de las Fuerzas Especiales Ginyu. Las coordenadas llevan a Goku al Planeta Yardrat, que iba a ser el próximo objetivo de las Fuerzas Especiales Ginyu. Sus amigos, que fueron transportados a la Tierra por un deseo hecho con las Esferas del Dragón de Nameki, creen que él murió. Sin embargo, meses más tarde, cuando tratan de revivir a Goku y Krilin, se enteran de que Goku está vivo. Cuando deciden transportarlo de regreso a la Tierra, se niega, diciendo que él va a volver por sus propios medios. Mientras que en Yardrat, Goku aprende una nueva técnica llamada la teletransportación.</p>
+
+                <h3 class="col-12 mt-5">Saga Androide</h3>
+
+                <p class="col-10 mt-5">Dos años más tarde, Goku regresa a la Tierra, donde se enfrenta a Trunks, el hijo Saiyan de Vegeta y Bulma del futuro. El adolescente como un Super Saiyan acababa de matar tanto Freezer y a su padre el Rey Cold momentos antes de que llegara Goku. Trunks pone a prueba el poder de Goku en un pequeño enfrentamiento donde ataca con su espada, Goku se defiende a distancia solamente usando un dedo (con energía concentrada), alegando que sabía que Trunks no lo atacaría seriamente. Satisfecho, Trunks le da a Goku la medicina que curará le enfermedad al corazón que contraería en tres años, recomendándole que la tome cuando se comience a sentir mal. Trunks del Futuro también le advierte sobre dos androides que amenazaran a la Tierra en tres años. Goku, Gohan y Piccolo pasan los próximos tres años entrenando para enfrentar a esta nueva amenaza. Sin embargo, la visita de Trunks del Futuro altera de alguna manera la aparición de la enfermedad, por lo que no se manifiesta durante esos tres años, y por lo tanto Goku no toma la medicina.
+
+                <br><br>
+
+                Tres años más tarde, dos androides, el Dr. Gero (como el Androide Número 20) y el Androide Número 19, aparecen y atacan una ciudad. Los Guerreros Z los enfrentan, y Yamcha es el primero en ser atacado, al haber sido empalado por la mano del Dr. Gero y de haber sido robada su energía. Sin embargo, él es salvado por una Semilla del Ermitaño y los Guerreros Z llevan a las dos máquinas asesinar afuera de la ciudad para luchar. A pesar de ser un Super Saiyan, Goku es derrotado por Nº19 cuando comienza a debilitarse drásticamente por la enfermedad cardíaca que comienza a manifestarse durante la pelea.
+
+                <br><br>
+                
+                Sin embargo, Vegeta, quien ahora es un Super Saiyan, logra salvar a Goku antes de que fuera derrotado por los androides, y después de jugar con él un poco, destruye al Androide Número 19 con facilidad, disfrutando de la batalla en gran medida. Yamcha lleva a Goku con Chi-Chi para obtener la medicina que salvaría su vida. Mientras tanto, el resto de los Guerreros Z se enteran por Trunks, que ha vuelto a ayudarles a luchar contra los androides, que la historia había sido alterado de alguna manera, y que los androides de su tiempo, osea Número 17 y Número 18, no eran con los que estaban luchando. Poco después, el Dr. Gero afirma que despertara a 17 y 18, y huye del campo de batalla. Los guerreros z tratan de detener al Dr. Gero de activar a los androides pero fallan. Sin embargo, una vez que el Dr. Gero activa a Nº17 y Nº18, se revelan contra él y lo asesinan, y activan a otro androide, el Androide Número 16, que fue creado exclusivamente para asesinar a Goku.
+
+                <br><br>
+                
+                Mientras los Guerreros Z intentan detener a los androides, Piccolo (que se había fusionado recientemente con Kami) descubre una nueva amenaza llamada Cell, una forma de vida biológica creada por el Dr. Gero, hecho con el ADN extraído de Goku, sus amigos, y enemigos con los que lucharon en el pasado. Cell fue diseñado para absorber a los androides 17 y 18, con el fin de perfeccionar su cuerpo, acabar con Goku, y ser el más poderoso del universo. Cell logra encontrarse con los androides y absorbe al Androide Número 17, alcanzando su segunda etapa. Mientras tanto, Goku logra curarse de su enfermedad y junto a Gohan, Vegeta y Trunks deciden entrenar en la Habitación del Tiempo en el templo de Kami donde un día dentro equivale a un año, la gravedad es mayor y posee temperaturas volátiles.
+
+                <br><br>
+                
+                Vegeta y Trunks entran primero y después se dirigen a enfrentar a Cell, mientras Goku y Gohan toman su turno para entrar a la habitación. Una vez dentro, Goku logra alcanzar hasta la forma del Super Saiyan de 3° Grado para alegría de Gohan, pero Goku le explica que no podrá vencer a Cell en ese estado debido a que su velocidad se disminuye y consume demasiado poder. Al darse cuenta que los Saiyans híbridos como Trunks del Futuro pueden convertirse en Super Saiyan, Goku entrena intensamente a Gohan y lo ayuda a convertirse en un Super Saiyan también. Durante este entrenamiento, Goku se da cuenta de que el potencial de Gohan puede superar fácilmente su propio poder, especialmente después de que Gohan logró alcanzar un nivel del Super Saiyan sin precedentes antes de perder la conciencia por el entrenamiento, y que, si no es capas de derrotar a Cell, Gohan podría.</p>
+
+                <h3 class="col-12 mt-5">El torneo de Cell</h3>
+
+                <p class="col-10 mt-5">Mientras Goku entrena, Cell absorbe a la Androide Número 18 y alcanza su forma perfecta, gracias a las acciones de Vegeta para luchar contra Cell en su forma perfecta. Vegeta fue derrotado fácilmente cuando desafió a Cell, al igual que Trunks, que fracasó debido a que la forma del Super Saiyan de Tercer Grado tenía mucha masa muscular y no podía golpear a Cell por su falta de velocidad, un defecto del cual Goku se dio cuenta. Después de que Goku y Gohan acabaran con su entrenamiento, Cell anuncia que realizara un Torneo en diez días con el fin de dar una oportunidad a cualquier persona que quiera desafiarlo. Durante diez días, Goku y Gohan lo dedican para entrenar y relajarse mientras siguen transformados en Super Saiyan todo el tiempo. Goku también utiliza este tiempo para viajar al Nuevo Planeta Namek para pedirle a Dende que sea el nuevo guardián de la Tierra, ya que Piccolo se había fusionado con Kami, en un intento de detener a Cell, y la fusión había hecho las esferas del dragón inútiles. Después de que Dende crea nuevas esferas del dragón utilizando la base de las antiguas, Goku realiza la búsqueda de las reactivadas esferas del dragón con el fin de utilizarlas después de derrotar a Cell para resucitar a quien haya asesinado el androide.
+
+                <br><br>
+
+                Después de haber pasado diez días, los Guerreros Z se dirigen al lugar donde se encuentra Cell. Después de que el supuesto campeón del mundo, Mr. Satán, fuera derrotado fácilmente, Goku se ofrece para ser el primero en luchar con Cell, creyendo que no era rival para el androide pero con el objetivo de ver sus capacidades. Goku está muy parejo con Cell aunque su oponente suprimía su poder, y parece que no puede ganar tras muchos intentos. Incluso después de atacar utilizando el Kamehameha y la tele-transportación para atacarlo de frente, que destruye la parte superior del cuerpo de Cell, viendo como horror como el androide se regenera con facilidad, gracias a las células que tiene en su cuerpo de Piccolo. Después de haberse cansado, Goku decide rendirse y elige como su remplazo a Gohan, quien está convencido que tiene el poder necesario para derrotar a Cell. Gohan piensa que su padre se había estado conteniendo, sólo para enterarse de que no era así, lo cual significaba que Gohan puede ser más fuerte que Goku, que estaba luchando seriamente.
+
+                <br><br>
+                
+                Gohan decide luchar y expulsa su poder acercándose incluso al de su padre, y lucha contra Cell, pero sin entusiasmo alguno. Después de que Gohan le cuenta a Cell que cuando se enfada expulsa mucho más de su poder, el androide comienza a tener curiosidad y trata de hacer que expulse su verdadero poder haciendo que sus hijos, los Cell Jr, atacan a Goku y los demás. Todos los guerreros Z no pueden vencer a los Cell Jr, incluyendo a Goku, que estaba agotado por su batalla contra Cell. Después de que el Androide Número 16 intentó autodestruírse junto con Cell, lo cual no sucede y es destruido, 16 le pide a Mr. Satán que lo llevara ante Gohan, e intenta convencerlo de que a veces pelear es necesario. Cuando Cell destruye la cabeza de 16, esto provoca un cambio en Gohan, que alcanza la forma del Super Saiyan 2, destruyendo fácilmente a los Cell Jr y apalea a Cell sin problema alguno, haciendo que regurgitara a la Androide Número 18 debido a los daños sufridos.
+
+                <br><br>
+                
+                Cuando Cell decide destruirse junto a la Tierra, como último recurso, Goku se ve obligado a sacrificarse con tan de evitarlo. Así se teletransporta al planeta del Kaio del Norte, donde muere por la explosión causada, junto a Kaio, Bubbles y Gregory. Sin embargo, Cell logra regenerarse en una forma Super Perfecta, y utiliza la recién aprendida tele-transportación para volver a la Tierra. En el choque entre el Kamehameha de Cell y Gohan, Goku motiva a su hijo desde el Otro Mundo, que después de una larga lucha, logra eliminar por completo al androide. Después de la derrota de Cell, Goku insiste en que permanecerá muerto, a pesar de que podría resucitar, porque piensa que es él quien atrae los problemas a la Tierra, como Freezer y los androides de la Patrulla Roja. Goku decide que será más seguro para la Tierra si no regresa, y la Tierra tiene a Gohan para protegerla si es necesario, diciéndole adiós a sus amigos.</p>
+
+                <h3 class="col-12 mt-5">En el Otro Mundo</h3>
+
+                <p class="col-10 mt-5">Tras la batalla con Cell, Goku se ve junto al Kaio del Norte, Bubbles y Gregory en el Camino de la Serpiente. De repente, Goku recuerda que Kaio le hablo sobre los guerreros del Otro Mundo, por lo que se dirigen al planeta del Gran Kaio. Al llegar, Kaio del Norte comienza a discutir con su rival el Kaio del Oeste, acompañado de su luchador más fuerte, Paikuhan.
+
+                <br><br>
+
+                Por petición del Gran Kaio, Paikuhan se dirige al Infierno a detener a un grupo de villanos que están haciendo estragos en el lugar, seguido de Goku. Al llegar, salva a un ogro de ser empalado y derrota sin problemas a las Fuerzas Especiales Ginyu. Preparándose para enfrentarse a Cell, observa como Paikuhan lo derrota con facilidad y acaba con Freezer y el Rey Cold de un golpe. Tras derrotarlos, Goku y Paikuhan se encuentran felices al conocer a alguien poderoso, tratándose del uno y del otro.
+
+                <br><br>
+                
+                Al volver, Goku es bienvenido por Kaio y por un grupo de guerreros perteneciente a la Galaxia del Norte, conociendo a Olib, que en vida fue un héroe en la Tierra. Así todos se dirigen a la mansión del Gran Kaio, donde se realizaría un torneo en el cual el ganador sería entrenado personalmente por el mismo Gran Kaio. Durante el torneo, Goku avanza derrotando a Caterpy de la Galaxia del Sur, Arqua de la Galaxia Este, y Maraiko de la Galaxia Oeste. En la final Goku se enfrenta a Paikuhan, y después de una larga pelea, ambos son descalificados por tocar los límites de la habitación.
+
+                <br><br>
+                
+                En los próximos siete años, mientras Goku entrena en otro mundo logra logra alcanzar el estado del Super Saiyan 2 y el Super Saiyan 3, siendo este último el cual aumenta su poder, incluso más allá de su ya poderoso Super Saiyan 2, pero consume una inconmensurable cantidad de ki.</p>
+
+                <h3 class="col-12 mt-5">El malvado mago Babidi</h3>
+
+                <p class="col-10 mt-5">Siete años más tarde, a Goku se le da un permiso especial para regresar a la Tierra por un día para participar en el 25° Torneo Mundial de Artes Marciales, donde asistirán Gohan, Goten, Vegeta y Trunks. En su regreso se encuentra con su segundo hijo, Goten, que había nacido después de su muerte, en los Juegos de Cell, y conoce a Videl, la amiga de Gohan de su escuela secundaria que es la hija de Mr. Satán, el farsante que recibió todo el crédito por salvar el mundo de Cell. Goku se enfrentaría a Vegeta en el sexto combate, pudiendo finalmente resolver su rivalidad, pero tuvo que ser pospuesta debido a que Videl fue gravemente golpeada por Spopovich, quien, junto a Yamu, es controlado por el malvado mago Babidi. Mientras Gohan debe enfrentarse a Kibito (el asistente del Kaio-shin, que también estaba en el torneo), Spopovich y Yamu roban la energía de Gohan Super Saiyan 2 y abandonan el torneo, mientras que todos los Guerreros Z hacen lo mismo para seguirlos hasta la guarida de Babidi.
+
+                <br><br>
+
+                El Kaio-shin y su asistente, Kibito, se presentan y les comunican a los Guerreros Z sobre los planes de Babidi que desea traer la destrucción y el terror a través de todo el universo liberando al temible Majin Boo. Una vez que llegan a la guarida, donde son emboscados por Dabra, el poderoso gobernante del mundo de los demonio, que mata a Kibito y convierte a Krilin y Piccolo en piedra. Goku, Gohan, Vegeta y Shin entran a la nave de Babidi y se turnan para derrotar a cada uno de sus soldados en cada habitación de la nave, impresionando con su poder al Kaio-shin. Goku lucha contra Yakon que absorbe su energía, pero Goku lo hace explotar. Mientras Gohan pelea contra Dabra, Vegeta se queja de que él puede hacerlo mejor. Cuando se entera de esto Babidi, posee a Vegeta a través de la maldad en su corazón y lo vuelve malvado de nuevo. Goku y Vegeta son transportados a un lugar deshabitado para que resuelvan su batalla, mientras que Gohan y el Kaio-shin siguen con el plan de detener Babidi.</p>
+
+                <h3 class="col-12 mt-5">El antiguo demonio, Majin Boo</h3>
+
+                <p class="col-10 mt-5">Goku y Vegeta tienen una batalla trascendental que da energía más que suficiente para el despertar de Majin Boo. A pesar de que están muy igualados como Super Saiyan 2, Goku decide detener la pelea cuando siente que Majin Boo ha sido liberado y le suplica a Vegeta para ayudarlo a derrotar a Majin Boo. En una falsa muestra de acuerdo, Vegeta golpea a Goku por la espalda mientras él toma la última Semilla Senzu de su bolsa. Tras comer la última semilla, Vegeta se dirige a enfrentarse a Majin Boo solo.
+
+                <br><br>
+                
+                Al despertar, Goku no podía sentir a Vegeta o a Gohan en cualquier lugar y llega a la conclusión de que murieron peleando (cuando en realidad Gohan se salvó por el gravemente herido Kaio-shin, y sólo Vegeta había muerto en un vano intento de acabar con Majin Boo). Se dirige a la Atalaya de Kami y es curado por Dende, quien confirma que Vegeta se sacrificó en un intento de destruir a Majin Boo. Después de llevar a todos sus amigos al Palacio, les informa a todos de las malas noticias. Con el poco tiempo que le queda en la Tierra, con ayuda de Piccolo, decide enseñarle a Trunks y Goten la técnica de la fusión, que aprendió de unos guerreros Metamoranos mientras se encontraba en el otro mundo, por lo que podrían unirse en un ser con poderes inmensos que podría hacer frente a Majin Boo.
+                
+                <br><br>
+
+                Después de enterarse de que el radar del dragón estaba en la Ciudad del Oeste y Majin Boo estaba a punto de causar más destrucción, Goku decide distraerlo mientras que Trunks recupera el radar del dragón antes de que sea destruido junto a la Capital del Oeste por Majin Boo, de lo contrario, nunca serían capaces de encontrar las esferas del dragón. Goku se teletransporta donde está Majin Boo, y todo el mundo (a través de la telepatía de Babidi) es testigo de como Goku alcanza la forma del Super Saiyan 3, cuyo poder podía ser detectado hasta el planeta Supremo. Sorprendentemente, Majin Boo tiene buen rato y disfruta de la pelea, incluso obligando a Goku a desviar una versión imitada de su propio Kamehameha, pero Goku regresa al Palacio ya que Trunks logró volver con el radar del dragón. Más tarde afirma que probablemente pudo haberle ganado, pero que quería dejarlo en manos de Gohan, Trunks y Goten porque él no estaría siempre, y que necesitan tener una oportunidad de salvar al universo en lugar de depender de alguien que ya estaba muerto. Desafortunadamente, el transformarse en Super Saiyan 3 acorta el tiempo límite que tenía Goku para permanecer en la Tierra y se ve obligado a volver al Otro Mundo.
+                
+                <br><br>
+
+                Una vez que Goku regresa al otro mundo, se entera de que su hijo, Gohan, no está muerto, y que está entrenando en el planeta Supremo. Goku se teletransporta allí para ser casi rebanado por la legendaria Espada Z, y para pone a prueba su poder, el Kaio-shin invoca un bloque hecho con el material más duro del universo, como material de prueba. Goku lanza el cubo a Gohan, esperando que la Espada Z lo cortara fácilmente. En cambio, la Espada Z se parte en dos y de ella surge el Kaio-shin de hace 15 generaciones, quien liberaría todo el poder de Gohan con un ritual.</p>
+
+                <h3 class="col-12 mt-5">El plan de la Fusión</h3>
+
+                <p class="col-10 mt-5">A través de una bola de cristal, Goku observa la pelea entre Gotenks Super Saiyan 3 y Super Boo, sorprendido de que los dos niños por sí solos, pudieran acceder al estado de Super Saiyan y eran capaces de alcanzar la forma de Super Saiyan 3 tan rápido cuando se fusionan. Como Gotenks está a punto de terminar con Super Boo después de una larga batalla, él vuelve a su estado normal y rápidamente se separa. Gohan (después de que todo su poder fuera liberado) llega para luchar, golpeando sin esfuerzo a Boo con sus nuevos poderes, pero Super Boo logra escapar al autodestruírse hasta que Goten y Trunks pudieran fusionarse de nuevo una hora más tarde, así absorbe a Gotenks y Piccolo, ganando gran intelecto y poder.
+
+                <br><br>
+
+                Cuando Gohan es superado por Super Boo, el Kaio-shin Anciano le da su vida a Goku para que pueda regresar a la Tierra y ayudar a Gohan. También le entrega sus pendientes para que pueda fusionarse con Gohan con el fin de crear a un guerrero sin igual que fácilmente destruiría a Boo sin siquiera la necesidad de transformarse según las palabras del Kaio-shin Ancia. Cuando Goku llega al campo de batalla, para gran sorpresa de Gohan y Super Boo, corta a Super Boo por la mitad con un disco de energía y lanza uno de los pendientes a Gohan. que no logra agarrar a tiempo, y Goku le dice que se apresure en buscarlo. Mientras tanto pelea contra Super Boo como un Super Saiyan 3. Durante la pelea, Gotenks se separa en el interior de Super Boo, y su poder se reduce a casi un tercio de su poder original. Goku dice que no es una gran amenaza ahora, y se da cuenta de que pueden vencer a Super Boo fácilmente. Sin embargo, Gohan es absorbido cuando Super Boo lo encuentra con la guardia baja. En el momento de desesperación, el recién resucitado Vegeta aparece, y después de que Goku se teletransporta donde se encuentra el príncipe Saiyan. Tras una pequeña pelea contra Super Boo, Vegeta decide fusionarse, los dos Saiyans restantes más poderosos se fusionan formando a Vegetto
+
+                <br><br>
+                
+                Vegetto supera fácilmente a Super Boo, incluso con Gohan absorbido. Super Boo utiliza todas las técnicas que ha conseguido contra el Saiyan fusionado, pero Vegetto logra esquivarlos sin muchos problemas. Después de una larga batalla, el poderoso Vegetto gana fácilmente. Sin embargo, supuestamente debido a la arrogancia de Vegeta en no terminar fácilmente con Boo, Vegetto es finalmente absorbido por Super Boo, el cual crea un escudo para protegerse. Sin embargo, se reveló más tarde que él decidió ser absorbido a propósito porque quería rescatar a sus amigos antes de acabar con Super Boo.
+
+                <br><br>
+                
+                Dentro de Boo, Vegetto se separa automáticamente debido a las propiedades del sistema digestivo de Super Boo. Si bien en el estómago, Goku es atacado por las enzimas que cubren rápidamente todo su cuerpo, haciéndolo pegajosa y quemándolo. Mientras lucha por liberarse, Goku casi es comido por un gusano hasta que finalmente logra liberarse. Después de viajar a través del cuerpo de Super Boo, Goku y Vegeta alcanzan el cerebro de Super Boo donde encuentran a Gohan, Trunks, Goten y Piccolo inconscientes pero aún con vida. Después de que liberan a todos y tener que luchar contra Super Boo dentro de su propio cuerpo, Vegeta decide arrancar al inconsciente Majin Boo gordo del cuerpo de Super Boo. A pesar de las súplicas de Super Boo, Vegeta termina por arrancarlo y Super Boo sufre otra transformación. Goku y Vegeta logran escapar del cuerpo de Super Boo con los Guerreros Z recién rescatados. Así Super Boo vuelve a su forma original, Pequeño Boo.</p>
+
+                <h3 class="col-12 mt-5">La batalla final</h3>
+
+                <p class="col-10 mt-5">En el exterior, Goku rescata a Mr. Satan, su perro Bee, y Dende, pero no llega a llevarse consigo a Gohan, Goten, Trunks y Piccolo antes de que el recién transformado Pequeño Boo destruyera la Tierra en una demostración extrema de su poder (Vegeta lo detuvo antes de hacer esto con un ataque mucho más pequeño, pero después lanza una enorme bola de energía que no podían desviar). El Kaio-shin llega al lugar y se teletransporta con Vegeta, Goku, Dende, Bee y Mr. Satán trayéndolos al Planeta Sagrado. Después de regenerarse, Pequeño Boo comienza a buscar a Goku y Vegeta.
+
+                <br><br>
+
+                Cuando Pequeño Boo los encuentra, Vegeta y Goku juegan al piedra, papel o tijera para decidir quien luchaba primero. Goku gana y es quien peleará. En el anime, comienza como un Super Saiyan 2, pero con el tiempo se transforma en un Super Saiyan 3. Así logra pelear en iguales condiciones, teniendo ventaja en algunas ocasiones, pero no se da cuenta de los inconvenientes al tener un cuerpo vivo, y se agota. Trata de reunir energía, mientra Vegeta distrae a Pequeño Boo (siendo brutalmente golpeado en el proceso), pero su transformación como un Super Saiyjin 3 drena sus reservas de energía y pronto pierde la capacidad de mantener dicha forma. A sugerencia de Vegeta, Goku comienza a recolectar energía para formar una Genkidama y utilizar la energía de la Tierra y sus habitantes (los cuales fueron resucitado durante la pelea).
+
+                <br><br>
+                
+                Usando la telepatía del Kaio del Norte, Vegeta habla con las personas y les pide a todos levantar sus manos para donar energía a la Genki-dama de Goku, pero no se atreven a hacerlo. Todo el mundo en Nuevo Namek y en el Otro Mundo dan de su energía para la Genki-dama, además de los amigos de Goku. Mientras tanto,el Majin Boo gordo, que trataba de entretener a Pequeño Boo, cae derrotando dejando a un lastimado Vegeta protegiendo a Goku mientras él termina de formar la Genki-dama. Finalmente, es Mr. Satán quien convence a todo el mundo en la Tierra de dar la energía necesaria a Goku para destruir a Pequeño Boo de una vez por todas. Con la contribución de la energía de la Tierra, Goku lanza la Genki-dama. Pero tan imposible como parece, Pequeño Boo logra detener el ataque y poco a poco comienza a empujarlo de vuelta hacia Goku. Vegeta se da cuenta de que Goku utilizó el resto de su poder para reunir la energía y formar la Genki-dama y no tiene la fuerza necesaria para derrotar a Boo.
+
+                <br><br>
+                
+                Utilizando el último deseo de las esferas del dragón de Namek (los dos primeros se usaron para restaurar la Tierra a su estado normal y luego el segundo para revivir a todos aquellos que murieron desde la llegada de Babidi, exceptuando a los malvados), Dende desea que todo el poder que Goku había utilizado fuera restaurado. Una vez con su poder restaurado, Goku se transforma en Super Saiyan, y ejerce presión sobre la Genkidama. Después de recordar los diferentes combates que tuvieron contra Boo, Goku pide un último desea a sí mismo, el cual es que Boo renaciera como un buen tipo para que pudieran luchar de nuevo algún día. Con la bendición de los residentes de la Tierra, Goku destruye a Pequeño Boo.</p>
+            </div>
+
+            <div class="col-2 d-block" id="botonesZ">
+                <h5 class="text-center">Elige tu fondo</h5>
+                <button type="button" class="btn saiyan">Saiyan</button>
+                <button type="button" class="btn freezer">Freezer</button>
+                <button type="button" class="btn androide">Androide</button>
+                <button type="button" class="btn cell">Cell</button>
+                <button type="button" class="btn otroMundo">Otro Mundo</button>
+                <button type="button" class="btn majinBoo">Majin Boo</button>
+                <button type="button" class="btn fusion">Fusion</button>
+                <button type="button" class="btn final">Final</button>
+            </div>
+
         
-        <br><br>
 
-        Goku hace el último sacrificio sujetando a Raditz para que Piccolo acabara con ambos con su poderoso ataque Makankosappo, atravesando a ambos. Sin embargo, antes de morir, Raditz le revela a Piccolo y Goku que dos Saiyan aún más poderosos que él, Vegeta y Nappa, están en camino a la Tierra, y llegarán en un año. Con Krilin a su lado, Goku muere, y Kami lo lleva al otro mundo donde conoce a Enma Daio, quien le dice que puede atravesar el Camino de la Serpiente y así llegar al planeta de Kaio del Norte donde será entrenado por este para poder derrotar a los Saiyan. En su viaje, conoce y escapa de la Princesa Serpiente e incluso escapa del Infierno, tras caerse del camino, teniendo que comenzar de nuevo todo el recorrido (esto solo sucede en el anime).
-        
-        <br><br>
+        </div>
 
-        Cuando Goku finalmente llega al planeta del Kaio del Norte, él lo confunde con un simio, Bubbles, y él imita las acciones del mono hasta que conoce al verdadero Kaio. Así tiene que superar desafíos ridículos antes de comenzar su entrenamiento, como contarle un chiste al Kaio, atrapar a Bubbles y golpear a su otro acompañante, Gregory, con un martillo en la cabeza. Debido a la gravedad aumentada del planeta, Goku tiene dificultad con los retos, pero con el tiempo logra completarlos. Después de eso, Goku aprende varias técnicas nuevas y aumenta su poder considerablemente. Sus amigos en la Tierra se las arreglan para volverlo a la vida usando las esferas del dragón, pero Kaio se olvidó tener en cuenta el tiempo que tardaría en volver. Así Goku se apresura en completar el Camino de la Serpiente, lo cual Kaio estima que ahora tardaría alrededor de dos días en recorrerlo y unirse a la pelea contra los Saiyan.
-        
-        <br><br>
-
-        En el momento en que Goku llega, solamente Krilin y Gohan seguían vivos. Al llegar, salva a su hijo de ser aplastado por Nappa, y es informado que sus amigos murieron, enfureciéndose, sorprendiendo a Vegeta con su nuevo poder. Para sorpresa de todos, Goku se había vuelto lo suficientemente fuerte como para derrotar a Nappa sin mucha dificultad, evitando sus ataques, y por último, detener su ataque más poderoso sin ningún problema. Cuando Nappa se dirigía a matar a Krilin y Gohan, Goku rompe la espalda de Nappa con el Kaio-ken y lo deja en el suelo, pero es Vegeta quien lo mata al final. Cuando Goku comienza su pelea con Vegeta, incluso el Kaio-ken aumentado dos veces no funciona. Goku, en un intento desesperado, utiliza el Kaio-ken aumentado tres veces, y vence a Vegeta al ponerse a su nivel de fuerza por breves momentos. Furioso, Vegeta trata de destruir el planeta con su ataque Galick Ho, Goku le responde con un Kamehameha y, tras usar el Kaio-Ken aumentado cuatro veces, logra devolverle el ataque pero le ocasiona a su cuerpo mucho dolor.
-        
-        <br><br>
-        
-        Cuando Vegeta regresa, se transforma en Ōzaru usando una Luna Artificial, y Goku se da cuenta de que él mismo fue quien asesinó a su abuelo, y se disculpa por ello, con la esperanza de que lo perdonara. Tras una larga batalla, Vegeta es finalmente derrotado con la intervención oportuna de Krilin, Gohan y Yajirobe. Sin embargo Goku termino brutalmente lastimado, con sus piernas rotas por Vegeta en su forma de Ōzaru . Después de la pelea, Krilin intenta tomar la vida de Vegeta usando la espada de Yajirobe, pero es detenido por Goku, quien lo convence de que le perdonara la vida y prometiendo que sería él quien lo derrotara la próxima vez.</p>
-
-        <h3 class="col-12 mt-5">Saga Freezer</h3>
-
-        <p class="col-12 mt-5">Después de la batalla con Vegeta, Goku está gravemente herido, y Karin todavía no tiene Semillas del Ermitaño, por lo que Goku tiene que quedarse en el hospital mientras que Bulma, Gohan y Krilin se dirigen al planeta Namek para encontrar las esferas del dragón para revivir a sus amigos caídos. Después de unas semanas, Karin envía a Yajirobe a darle a Goku algunas semillas que acaban de crecer, que lo cura completamente. Goku, una vez recuperado y enterado de la crisis por la que atraviesa el Planeta Namek, entonces utiliza la nueva nave espacial que le pidió al Dr. Brief, que construyó a partir de la nave con la que Goku llego a la Tierra, y se dirige a Namek.
-        
-        <br><br>
-
-        Durante su viaje a Namek, Goku entrena en diversos niveles de gravedad pero la máquina de gravedad artificial de la nave comienza a funcionar mal, haciendo que la aumente 100 veces, casi aplastando a Goku. Finalmente Goku es capaz de arreglar la gravedad con el control de la máquina, sin embargo, decide seguir entrenando en ese entorno para entrenar y poder hacer frente a Freezer. En un momento Kaio le aconseja alejarse de Freezer, llamándolo el ser más poderoso del universo, y que no tendría ninguna oportunidad contra él.
-
-        <br><br>
-        
-        Al llegar a Namek, una vez más, Goku entra en una batalla, donde se encontraba luchando Gohan, Krilin y Vegeta contra Recoom, miembro de las Fuerzas Especiales Ginyu. Goku cura a los tres con Semillas del Ermitaño, y muestra su nuevo poder derrotando fácilmente a Recoom, y luego se enfrenta solo a Burter y Jeice. Goku los engaño haciéndolos pensar que su nivel de pelea era de 5.000, aumentando su nivel rápidamente para atacar. Después de esquivar varios ataques, Goku derrota a Burter y deja ir a Jeice, que rápidamente trae al capitán Ginyu, quien tiene la habilidad de cambiar de cuerpo con cualquier persona que crea conveniente.
-
-        <br><br>
-        
-        Después de un pequeño calentamiento, Goku supera al capitán Ginyu, asustando con su nivel de pelea a Ginyu y Jeice, ya que era mucho más alto que el de ellos. Golpeándose a sí mismo antes, el capitán Ginyu intercambia cuerpos con el de Goku, pero no es capaz de controlar totalmente su nuevo cuerpo y su poder. Vegeta aprovecha esta oportunidad para humillar a Ginyu, hiriendo gravemente el cuerpo de Goku. Goku se las arregla para conseguir su cuerpo de regreso después de interceptar un rayo enviado por el capitán Ginyu que pensaba conseguir el cuerpo de Vegeta. El cuerpo de Goku queda muy lastimo, así que utilizan una máquina médica dentro de la nave espacial de Freezer que le sana aunque esto tarda un poco. 
-
-        <br><br>
-        
-        Cuando sale, una vez más, se une a la batalla contra Freezer, donde Vegeta es torturado por Freezer. Goku escucha las últimas palabras de Vegeta, que le hablan sobre como Freezer utilizo y se deshizo de los Saiyan, hasta que muere y lo entierra pidiendo que le diera un poco de su orgullo Saiyan. Lleno de ira, declara que va a derrotar a Freezer en nombre de los Saiyan y namekianos que asesinó. La batalla comienza estando Goku confiado de sus habilidades, pero Freezer comienza a mostrar más de su poder superándolo fácilmente. Incluso con Freezer otorgándole ventaja (como no usar las manos), Goku todavía no puede igualar al tirano. Incluso la combinación del Kaio-ken x20 y su Kamehameha no tiene ningún efecto, Freezer comienza a golpear a Goku, entonces recuerda que todavía tiene la Genki-dama, y decide reunir la energía necesaria, quedándose de pie con los brazos levantados. Piccolo (que había sido resucitado y fue transportado a Namek para ayudar), Gohan y Krilin intentan distraer a Freezer de Goku para que pudiera reunir la energía. Por último, con todas sus fuerzas, Goku lanza el ataque, que impacta a un Freezer que pensaba destruir el planeta, y aparentemente desaparecer, junto con una buena porción de Namek en la devastadora explosión.
-
-        <br><br>
-        
-        Cansado Goku comienza a reír, junto con sus amigos, que creen que Freezer finalmente fue derrotado. Pero incluso el ataque más poderoso de Goku, la gran Genki-dama, no pudo matar a Freezer. Por último, cuando Freezer asesina a Krilin y hiere de gravedad a Piccolo, Goku, con ira extrema, libera sus reservas de energía interna y se transforma en un Super Saiyan. El combate se reanuda, superando completamente a Freezer, incluso cuando utiliza el 100% de su poder. En su desesperación, Freezer lanza una ráfaga de energía contra el núcleo de Namek, causando una reacción en cadena que destruirá el planeta en cinco minutos dicho por el mismo Freezer. Durante la lucha siguiente, Freezer utiliza el ataque de platillos cortantes, creando dos discos rosados que siguen a su oponente. Goku se mueve demasiado rápido para ser alcanzado por el ataque y maniobra para que Freezer esté entre él y los discos. Goku grita advirtiendo a Freezer, pero Freezer es demasiado lento y es cortado por la mitad, perdiendo un brazo, sus piernas y parte de su cola. Estando débil él, ruega a Goku para que lo ayude. Goku, creyendo que Freezer no merecía ser perdonado, le da un poco de su energía como una muestra de misericordia. Amargo por su derrota, Freezer utiliza el poder prestado para lanzar por la espalda un poderoso ataque a Goku. Sin embargo, Goku se da cuenta del ataque y contraataca a Freezer, derrotándolo.
-
-        <br><br>
-        
-        Goku vuela a la nave espacial de Freezer y presiona todos los botones para tratar de hacer que la nave despegara, sin embargo, no funciona y la nave espacial cae en la lava. Por suerte, logra escapar rápidamente de Namek usando una de las naves espaciales de las Fuerzas Especiales Ginyu. Las coordenadas llevan a Goku al Planeta Yardrat, que iba a ser el próximo objetivo de las Fuerzas Especiales Ginyu. Sus amigos, que fueron transportados a la Tierra por un deseo hecho con las Esferas del Dragón de Nameki, creen que él murió. Sin embargo, meses más tarde, cuando tratan de revivir a Goku y Krilin, se enteran de que Goku está vivo. Cuando deciden transportarlo de regreso a la Tierra, se niega, diciendo que él va a volver por sus propios medios. Mientras que en Yardrat, Goku aprende una nueva técnica llamada la teletransportación.</p>
-
-        <h3 class="col-12 mt-5">Saga Androide</h3>
-
-        <p class="col-12 mt-5">Dos años más tarde, Goku regresa a la Tierra, donde se enfrenta a Trunks, el hijo Saiyan de Vegeta y Bulma del futuro. El adolescente como un Super Saiyan acababa de matar tanto Freezer y a su padre el Rey Cold momentos antes de que llegara Goku. Trunks pone a prueba el poder de Goku en un pequeño enfrentamiento donde ataca con su espada, Goku se defiende a distancia solamente usando un dedo (con energía concentrada), alegando que sabía que Trunks no lo atacaría seriamente. Satisfecho, Trunks le da a Goku la medicina que curará le enfermedad al corazón que contraería en tres años, recomendándole que la tome cuando se comience a sentir mal. Trunks del Futuro también le advierte sobre dos androides que amenazaran a la Tierra en tres años. Goku, Gohan y Piccolo pasan los próximos tres años entrenando para enfrentar a esta nueva amenaza. Sin embargo, la visita de Trunks del Futuro altera de alguna manera la aparición de la enfermedad, por lo que no se manifiesta durante esos tres años, y por lo tanto Goku no toma la medicina.
-
-        <br><br>
-
-        Tres años más tarde, dos androides, el Dr. Gero (como el Androide Número 20) y el Androide Número 19, aparecen y atacan una ciudad. Los Guerreros Z los enfrentan, y Yamcha es el primero en ser atacado, al haber sido empalado por la mano del Dr. Gero y de haber sido robada su energía. Sin embargo, él es salvado por una Semilla del Ermitaño y los Guerreros Z llevan a las dos máquinas asesinar afuera de la ciudad para luchar. A pesar de ser un Super Saiyan, Goku es derrotado por Nº19 cuando comienza a debilitarse drásticamente por la enfermedad cardíaca que comienza a manifestarse durante la pelea.
-
-        <br><br>
-        
-        Sin embargo, Vegeta, quien ahora es un Super Saiyan, logra salvar a Goku antes de que fuera derrotado por los androides, y después de jugar con él un poco, destruye al Androide Número 19 con facilidad, disfrutando de la batalla en gran medida. Yamcha lleva a Goku con Chi-Chi para obtener la medicina que salvaría su vida. Mientras tanto, el resto de los Guerreros Z se enteran por Trunks, que ha vuelto a ayudarles a luchar contra los androides, que la historia había sido alterado de alguna manera, y que los androides de su tiempo, osea Número 17 y Número 18, no eran con los que estaban luchando. Poco después, el Dr. Gero afirma que despertara a 17 y 18, y huye del campo de batalla. Los guerreros z tratan de detener al Dr. Gero de activar a los androides pero fallan. Sin embargo, una vez que el Dr. Gero activa a Nº17 y Nº18, se revelan contra él y lo asesinan, y activan a otro androide, el Androide Número 16, que fue creado exclusivamente para asesinar a Goku.
-
-        <br><br>
-        
-        Mientras los Guerreros Z intentan detener a los androides, Piccolo (que se había fusionado recientemente con Kami) descubre una nueva amenaza llamada Cell, una forma de vida biológica creada por el Dr. Gero, hecho con el ADN extraído de Goku, sus amigos, y enemigos con los que lucharon en el pasado. Cell fue diseñado para absorber a los androides 17 y 18, con el fin de perfeccionar su cuerpo, acabar con Goku, y ser el más poderoso del universo. Cell logra encontrarse con los androides y absorbe al Androide Número 17, alcanzando su segunda etapa. Mientras tanto, Goku logra curarse de su enfermedad y junto a Gohan, Vegeta y Trunks deciden entrenar en la Habitación del Tiempo en el templo de Kami donde un día dentro equivale a un año, la gravedad es mayor y posee temperaturas volátiles.
-
-        <br><br>
-        
-        Vegeta y Trunks entran primero y después se dirigen a enfrentar a Cell, mientras Goku y Gohan toman su turno para entrar a la habitación. Una vez dentro, Goku logra alcanzar hasta la forma del Super Saiyan de 3° Grado para alegría de Gohan, pero Goku le explica que no podrá vencer a Cell en ese estado debido a que su velocidad se disminuye y consume demasiado poder. Al darse cuenta que los Saiyans híbridos como Trunks del Futuro pueden convertirse en Super Saiyan, Goku entrena intensamente a Gohan y lo ayuda a convertirse en un Super Saiyan también. Durante este entrenamiento, Goku se da cuenta de que el potencial de Gohan puede superar fácilmente su propio poder, especialmente después de que Gohan logró alcanzar un nivel del Super Saiyan sin precedentes antes de perder la conciencia por el entrenamiento, y que, si no es capas de derrotar a Cell, Gohan podría.</p>
-
-        <h3 class="col-12 mt-5">El torneo de Cell</h3>
-
-        <p class="col-12 mt-5">Mientras Goku entrena, Cell absorbe a la Androide Número 18 y alcanza su forma perfecta, gracias a las acciones de Vegeta para luchar contra Cell en su forma perfecta. Vegeta fue derrotado fácilmente cuando desafió a Cell, al igual que Trunks, que fracasó debido a que la forma del Super Saiyan de Tercer Grado tenía mucha masa muscular y no podía golpear a Cell por su falta de velocidad, un defecto del cual Goku se dio cuenta. Después de que Goku y Gohan acabaran con su entrenamiento, Cell anuncia que realizara un Torneo en diez días con el fin de dar una oportunidad a cualquier persona que quiera desafiarlo. Durante diez días, Goku y Gohan lo dedican para entrenar y relajarse mientras siguen transformados en Super Saiyan todo el tiempo. Goku también utiliza este tiempo para viajar al Nuevo Planeta Namek para pedirle a Dende que sea el nuevo guardián de la Tierra, ya que Piccolo se había fusionado con Kami, en un intento de detener a Cell, y la fusión había hecho las esferas del dragón inútiles. Después de que Dende crea nuevas esferas del dragón utilizando la base de las antiguas, Goku realiza la búsqueda de las reactivadas esferas del dragón con el fin de utilizarlas después de derrotar a Cell para resucitar a quien haya asesinado el androide.
-
-        <br><br>
-
-        Después de haber pasado diez días, los Guerreros Z se dirigen al lugar donde se encuentra Cell. Después de que el supuesto campeón del mundo, Mr. Satán, fuera derrotado fácilmente, Goku se ofrece para ser el primero en luchar con Cell, creyendo que no era rival para el androide pero con el objetivo de ver sus capacidades. Goku está muy parejo con Cell aunque su oponente suprimía su poder, y parece que no puede ganar tras muchos intentos. Incluso después de atacar utilizando el Kamehameha y la tele-transportación para atacarlo de frente, que destruye la parte superior del cuerpo de Cell, viendo como horror como el androide se regenera con facilidad, gracias a las células que tiene en su cuerpo de Piccolo. Después de haberse cansado, Goku decide rendirse y elige como su remplazo a Gohan, quien está convencido que tiene el poder necesario para derrotar a Cell. Gohan piensa que su padre se había estado conteniendo, sólo para enterarse de que no era así, lo cual significaba que Gohan puede ser más fuerte que Goku, que estaba luchando seriamente.
-
-        <br><br>
-        
-        Gohan decide luchar y expulsa su poder acercándose incluso al de su padre, y lucha contra Cell, pero sin entusiasmo alguno. Después de que Gohan le cuenta a Cell que cuando se enfada expulsa mucho más de su poder, el androide comienza a tener curiosidad y trata de hacer que expulse su verdadero poder haciendo que sus hijos, los Cell Jr, atacan a Goku y los demás. Todos los guerreros Z no pueden vencer a los Cell Jr, incluyendo a Goku, que estaba agotado por su batalla contra Cell. Después de que el Androide Número 16 intentó autodestruírse junto con Cell, lo cual no sucede y es destruido, 16 le pide a Mr. Satán que lo llevara ante Gohan, e intenta convencerlo de que a veces pelear es necesario. Cuando Cell destruye la cabeza de 16, esto provoca un cambio en Gohan, que alcanza la forma del Super Saiyan 2, destruyendo fácilmente a los Cell Jr y apalea a Cell sin problema alguno, haciendo que regurgitara a la Androide Número 18 debido a los daños sufridos.
-
-        <br><br>
-        
-        Cuando Cell decide destruirse junto a la Tierra, como último recurso, Goku se ve obligado a sacrificarse con tan de evitarlo. Así se teletransporta al planeta del Kaio del Norte, donde muere por la explosión causada, junto a Kaio, Bubbles y Gregory. Sin embargo, Cell logra regenerarse en una forma Super Perfecta, y utiliza la recién aprendida tele-transportación para volver a la Tierra. En el choque entre el Kamehameha de Cell y Gohan, Goku motiva a su hijo desde el Otro Mundo, que después de una larga lucha, logra eliminar por completo al androide. Después de la derrota de Cell, Goku insiste en que permanecerá muerto, a pesar de que podría resucitar, porque piensa que es él quien atrae los problemas a la Tierra, como Freezer y los androides de la Patrulla Roja. Goku decide que será más seguro para la Tierra si no regresa, y la Tierra tiene a Gohan para protegerla si es necesario, diciéndole adiós a sus amigos.</p>
-
-        <h3 class="col-12 mt-5">En el Otro Mundo</h3>
-
-        <p class="col-12 mt-5">Tras la batalla con Cell, Goku se ve junto al Kaio del Norte, Bubbles y Gregory en el Camino de la Serpiente. De repente, Goku recuerda que Kaio le hablo sobre los guerreros del Otro Mundo, por lo que se dirigen al planeta del Gran Kaio. Al llegar, Kaio del Norte comienza a discutir con su rival el Kaio del Oeste, acompañado de su luchador más fuerte, Paikuhan.
-
-        <br><br>
-
-        Por petición del Gran Kaio, Paikuhan se dirige al Infierno a detener a un grupo de villanos que están haciendo estragos en el lugar, seguido de Goku. Al llegar, salva a un ogro de ser empalado y derrota sin problemas a las Fuerzas Especiales Ginyu. Preparándose para enfrentarse a Cell, observa como Paikuhan lo derrota con facilidad y acaba con Freezer y el Rey Cold de un golpe. Tras derrotarlos, Goku y Paikuhan se encuentran felices al conocer a alguien poderoso, tratándose del uno y del otro.
-
-        <br><br>
-        
-        Al volver, Goku es bienvenido por Kaio y por un grupo de guerreros perteneciente a la Galaxia del Norte, conociendo a Olib, que en vida fue un héroe en la Tierra. Así todos se dirigen a la mansión del Gran Kaio, donde se realizaría un torneo en el cual el ganador sería entrenado personalmente por el mismo Gran Kaio. Durante el torneo, Goku avanza derrotando a Caterpy de la Galaxia del Sur, Arqua de la Galaxia Este, y Maraiko de la Galaxia Oeste. En la final Goku se enfrenta a Paikuhan, y después de una larga pelea, ambos son descalificados por tocar los límites de la habitación.
-
-        <br><br>
-        
-        En los próximos siete años, mientras Goku entrena en otro mundo logra logra alcanzar el estado del Super Saiyan 2 y el Super Saiyan 3, siendo este último el cual aumenta su poder, incluso más allá de su ya poderoso Super Saiyan 2, pero consume una inconmensurable cantidad de ki.</p>
-
-        <h3 class="col-12 mt-5">El malvado mago Babidi</h3>
-
-        <p class="col-12 mt-5">Siete años más tarde, a Goku se le da un permiso especial para regresar a la Tierra por un día para participar en el 25° Torneo Mundial de Artes Marciales, donde asistirán Gohan, Goten, Vegeta y Trunks. En su regreso se encuentra con su segundo hijo, Goten, que había nacido después de su muerte, en los Juegos de Cell, y conoce a Videl, la amiga de Gohan de su escuela secundaria que es la hija de Mr. Satán, el farsante que recibió todo el crédito por salvar el mundo de Cell. Goku se enfrentaría a Vegeta en el sexto combate, pudiendo finalmente resolver su rivalidad, pero tuvo que ser pospuesta debido a que Videl fue gravemente golpeada por Spopovich, quien, junto a Yamu, es controlado por el malvado mago Babidi. Mientras Gohan debe enfrentarse a Kibito (el asistente del Kaio-shin, que también estaba en el torneo), Spopovich y Yamu roban la energía de Gohan Super Saiyan 2 y abandonan el torneo, mientras que todos los Guerreros Z hacen lo mismo para seguirlos hasta la guarida de Babidi.
-
-        <br><br>
-
-        El Kaio-shin y su asistente, Kibito, se presentan y les comunican a los Guerreros Z sobre los planes de Babidi que desea traer la destrucción y el terror a través de todo el universo liberando al temible Majin Boo. Una vez que llegan a la guarida, donde son emboscados por Dabra, el poderoso gobernante del mundo de los demonio, que mata a Kibito y convierte a Krilin y Piccolo en piedra. Goku, Gohan, Vegeta y Shin entran a la nave de Babidi y se turnan para derrotar a cada uno de sus soldados en cada habitación de la nave, impresionando con su poder al Kaio-shin. Goku lucha contra Yakon que absorbe su energía, pero Goku lo hace explotar. Mientras Gohan pelea contra Dabra, Vegeta se queja de que él puede hacerlo mejor. Cuando se entera de esto Babidi, posee a Vegeta a través de la maldad en su corazón y lo vuelve malvado de nuevo. Goku y Vegeta son transportados a un lugar deshabitado para que resuelvan su batalla, mientras que Gohan y el Kaio-shin siguen con el plan de detener Babidi.</p>
-
-        <h3 class="col-12 mt-5">El antiguo demonio, Majin Boo</h3>
-
-        <p class="col-12 mt-5">Goku y Vegeta tienen una batalla trascendental que da energía más que suficiente para el despertar de Majin Boo. A pesar de que están muy igualados como Super Saiyan 2, Goku decide detener la pelea cuando siente que Majin Boo ha sido liberado y le suplica a Vegeta para ayudarlo a derrotar a Majin Boo. En una falsa muestra de acuerdo, Vegeta golpea a Goku por la espalda mientras él toma la última Semilla Senzu de su bolsa. Tras comer la última semilla, Vegeta se dirige a enfrentarse a Majin Boo solo.
-
-        <br><br>
-        
-        Al despertar, Goku no podía sentir a Vegeta o a Gohan en cualquier lugar y llega a la conclusión de que murieron peleando (cuando en realidad Gohan se salvó por el gravemente herido Kaio-shin, y sólo Vegeta había muerto en un vano intento de acabar con Majin Boo). Se dirige a la Atalaya de Kami y es curado por Dende, quien confirma que Vegeta se sacrificó en un intento de destruir a Majin Boo. Después de llevar a todos sus amigos al Palacio, les informa a todos de las malas noticias. Con el poco tiempo que le queda en la Tierra, con ayuda de Piccolo, decide enseñarle a Trunks y Goten la técnica de la fusión, que aprendió de unos guerreros Metamoranos mientras se encontraba en el otro mundo, por lo que podrían unirse en un ser con poderes inmensos que podría hacer frente a Majin Boo.
-        
-        <br><br>
-
-        Después de enterarse de que el radar del dragón estaba en la Ciudad del Oeste y Majin Boo estaba a punto de causar más destrucción, Goku decide distraerlo mientras que Trunks recupera el radar del dragón antes de que sea destruido junto a la Capital del Oeste por Majin Boo, de lo contrario, nunca serían capaces de encontrar las esferas del dragón. Goku se teletransporta donde está Majin Boo, y todo el mundo (a través de la telepatía de Babidi) es testigo de como Goku alcanza la forma del Super Saiyan 3, cuyo poder podía ser detectado hasta el planeta Supremo. Sorprendentemente, Majin Boo tiene buen rato y disfruta de la pelea, incluso obligando a Goku a desviar una versión imitada de su propio Kamehameha, pero Goku regresa al Palacio ya que Trunks logró volver con el radar del dragón. Más tarde afirma que probablemente pudo haberle ganado, pero que quería dejarlo en manos de Gohan, Trunks y Goten porque él no estaría siempre, y que necesitan tener una oportunidad de salvar al universo en lugar de depender de alguien que ya estaba muerto. Desafortunadamente, el transformarse en Super Saiyan 3 acorta el tiempo límite que tenía Goku para permanecer en la Tierra y se ve obligado a volver al Otro Mundo.
-        
-        <br><br>
-
-        Una vez que Goku regresa al otro mundo, se entera de que su hijo, Gohan, no está muerto, y que está entrenando en el planeta Supremo. Goku se teletransporta allí para ser casi rebanado por la legendaria Espada Z, y para pone a prueba su poder, el Kaio-shin invoca un bloque hecho con el material más duro del universo, como material de prueba. Goku lanza el cubo a Gohan, esperando que la Espada Z lo cortara fácilmente. En cambio, la Espada Z se parte en dos y de ella surge el Kaio-shin de hace 15 generaciones, quien liberaría todo el poder de Gohan con un ritual.</p>
-
-        <h3 class="col-12 mt-5">El plan de la Fusión</h3>
-
-        <p class="col-12 mt-5">A través de una bola de cristal, Goku observa la pelea entre Gotenks Super Saiyan 3 y Super Boo, sorprendido de que los dos niños por sí solos, pudieran acceder al estado de Super Saiyan y eran capaces de alcanzar la forma de Super Saiyan 3 tan rápido cuando se fusionan. Como Gotenks está a punto de terminar con Super Boo después de una larga batalla, él vuelve a su estado normal y rápidamente se separa. Gohan (después de que todo su poder fuera liberado) llega para luchar, golpeando sin esfuerzo a Boo con sus nuevos poderes, pero Super Boo logra escapar al autodestruírse hasta que Goten y Trunks pudieran fusionarse de nuevo una hora más tarde, así absorbe a Gotenks y Piccolo, ganando gran intelecto y poder.
-
-        <br><br>
-
-        Cuando Gohan es superado por Super Boo, el Kaio-shin Anciano le da su vida a Goku para que pueda regresar a la Tierra y ayudar a Gohan. También le entrega sus pendientes para que pueda fusionarse con Gohan con el fin de crear a un guerrero sin igual que fácilmente destruiría a Boo sin siquiera la necesidad de transformarse según las palabras del Kaio-shin Ancia. Cuando Goku llega al campo de batalla, para gran sorpresa de Gohan y Super Boo, corta a Super Boo por la mitad con un disco de energía y lanza uno de los pendientes a Gohan. que no logra agarrar a tiempo, y Goku le dice que se apresure en buscarlo. Mientras tanto pelea contra Super Boo como un Super Saiyan 3. Durante la pelea, Gotenks se separa en el interior de Super Boo, y su poder se reduce a casi un tercio de su poder original. Goku dice que no es una gran amenaza ahora, y se da cuenta de que pueden vencer a Super Boo fácilmente. Sin embargo, Gohan es absorbido cuando Super Boo lo encuentra con la guardia baja. En el momento de desesperación, el recién resucitado Vegeta aparece, y después de que Goku se teletransporta donde se encuentra el príncipe Saiyan. Tras una pequeña pelea contra Super Boo, Vegeta decide fusionarse, los dos Saiyans restantes más poderosos se fusionan formando a Vegetto
-
-        <br><br>
-        
-        Vegetto supera fácilmente a Super Boo, incluso con Gohan absorbido. Super Boo utiliza todas las técnicas que ha conseguido contra el Saiyan fusionado, pero Vegetto logra esquivarlos sin muchos problemas. Después de una larga batalla, el poderoso Vegetto gana fácilmente. Sin embargo, supuestamente debido a la arrogancia de Vegeta en no terminar fácilmente con Boo, Vegetto es finalmente absorbido por Super Boo, el cual crea un escudo para protegerse. Sin embargo, se reveló más tarde que él decidió ser absorbido a propósito porque quería rescatar a sus amigos antes de acabar con Super Boo.
-
-        <br><br>
-        
-        Dentro de Boo, Vegetto se separa automáticamente debido a las propiedades del sistema digestivo de Super Boo. Si bien en el estómago, Goku es atacado por las enzimas que cubren rápidamente todo su cuerpo, haciéndolo pegajosa y quemándolo. Mientras lucha por liberarse, Goku casi es comido por un gusano hasta que finalmente logra liberarse. Después de viajar a través del cuerpo de Super Boo, Goku y Vegeta alcanzan el cerebro de Super Boo donde encuentran a Gohan, Trunks, Goten y Piccolo inconscientes pero aún con vida. Después de que liberan a todos y tener que luchar contra Super Boo dentro de su propio cuerpo, Vegeta decide arrancar al inconsciente Majin Boo gordo del cuerpo de Super Boo. A pesar de las súplicas de Super Boo, Vegeta termina por arrancarlo y Super Boo sufre otra transformación. Goku y Vegeta logran escapar del cuerpo de Super Boo con los Guerreros Z recién rescatados. Así Super Boo vuelve a su forma original, Pequeño Boo.</p>
-
-        <h3 class="col-12 mt-5">La batalla final</h3>
-
-        <p class="col-12 mt-5">En el exterior, Goku rescata a Mr. Satan, su perro Bee, y Dende, pero no llega a llevarse consigo a Gohan, Goten, Trunks y Piccolo antes de que el recién transformado Pequeño Boo destruyera la Tierra en una demostración extrema de su poder (Vegeta lo detuvo antes de hacer esto con un ataque mucho más pequeño, pero después lanza una enorme bola de energía que no podían desviar). El Kaio-shin llega al lugar y se teletransporta con Vegeta, Goku, Dende, Bee y Mr. Satán trayéndolos al Planeta Sagrado. Después de regenerarse, Pequeño Boo comienza a buscar a Goku y Vegeta.
-
-        <br><br>
-
-        Cuando Pequeño Boo los encuentra, Vegeta y Goku juegan al piedra, papel o tijera para decidir quien luchaba primero. Goku gana y es quien peleará. En el anime, comienza como un Super Saiyan 2, pero con el tiempo se transforma en un Super Saiyan 3. Así logra pelear en iguales condiciones, teniendo ventaja en algunas ocasiones, pero no se da cuenta de los inconvenientes al tener un cuerpo vivo, y se agota. Trata de reunir energía, mientra Vegeta distrae a Pequeño Boo (siendo brutalmente golpeado en el proceso), pero su transformación como un Super Saiyjin 3 drena sus reservas de energía y pronto pierde la capacidad de mantener dicha forma. A sugerencia de Vegeta, Goku comienza a recolectar energía para formar una Genkidama y utilizar la energía de la Tierra y sus habitantes (los cuales fueron resucitado durante la pelea).
-
-        <br><br>
-        
-        Usando la telepatía del Kaio del Norte, Vegeta habla con las personas y les pide a todos levantar sus manos para donar energía a la Genki-dama de Goku, pero no se atreven a hacerlo. Todo el mundo en Nuevo Namek y en el Otro Mundo dan de su energía para la Genki-dama, además de los amigos de Goku. Mientras tanto,el Majin Boo gordo, que trataba de entretener a Pequeño Boo, cae derrotando dejando a un lastimado Vegeta protegiendo a Goku mientras él termina de formar la Genki-dama. Finalmente, es Mr. Satán quien convence a todo el mundo en la Tierra de dar la energía necesaria a Goku para destruir a Pequeño Boo de una vez por todas. Con la contribución de la energía de la Tierra, Goku lanza la Genki-dama. Pero tan imposible como parece, Pequeño Boo logra detener el ataque y poco a poco comienza a empujarlo de vuelta hacia Goku. Vegeta se da cuenta de que Goku utilizó el resto de su poder para reunir la energía y formar la Genki-dama y no tiene la fuerza necesaria para derrotar a Boo.
-
-        <br><br>
-        
-        Utilizando el último deseo de las esferas del dragón de Namek (los dos primeros se usaron para restaurar la Tierra a su estado normal y luego el segundo para revivir a todos aquellos que murieron desde la llegada de Babidi, exceptuando a los malvados), Dende desea que todo el poder que Goku había utilizado fuera restaurado. Una vez con su poder restaurado, Goku se transforma en Super Saiyan, y ejerce presión sobre la Genkidama. Después de recordar los diferentes combates que tuvieron contra Boo, Goku pide un último desea a sí mismo, el cual es que Boo renaciera como un buen tipo para que pudieran luchar de nuevo algún día. Con la bendición de los residentes de la Tierra, Goku destruye a Pequeño Boo.</p>
 
         `)
+
+        const fondo = $('#botonesZ');
+        const containerZ = $('#fondoZ');
+
+        (() => {
+            $(fondo).click(cambiarFondo);
+        })();
+
+        function cambiarFondo(e){
+            e.preventDefault();
+            let btnFondo = e.target.classList[1];
+
+            switch(btnFondo){
+
+                case 'saiyan':
+                    containerZ.removeClass(['freezer', 'androide', 'cell', 'otroMundo', 'majinBoo', 'fusion', 'final']);
+                    containerZ.toggleClass('saiyan');
+                    break
+
+                case 'freezer':
+                    containerZ.removeClass(['saiyan', 'androide', 'cell', 'otroMundo', 'majinBoo', 'fusion', 'final']);
+                    containerZ.toggleClass('freezer');
+                    break
+
+                case 'androide':
+                    containerZ.removeClass(['freezer', 'saiyan', 'cell', 'otroMundo', 'majinBoo', 'fusion', 'final']);
+                    containerZ.toggleClass('androide');
+                    break
+
+                case 'cell':
+                    containerZ.removeClass(['freezer', 'saiyan', 'androide', 'otroMundo', 'majinBoo', 'fusion', 'final']);
+                    containerZ.toggleClass('cell');
+                    break
+
+                case 'otroMundo':
+                    containerZ.removeClass(['freezer', 'saiyan', 'androide', 'cell', 'majinBoo', 'fusion', 'final']);
+                    containerZ.toggleClass('otroMundo');
+                    break
+
+                case 'majinBoo':
+                    containerZ.removeClass(['freezer', 'saiyan', 'androide', 'otroMundo', 'cell', 'fusion', 'final']);
+                    containerZ.toggleClass('majinBoo');
+                    break
+
+                case 'fusion':
+                    containerZ.removeClass(['freezer', 'saiyan', 'androide', 'otroMundo', 'majinBoo', 'cell', 'final']);
+                    containerZ.toggleClass('fusion');
+                    break
+
+                case 'final':
+                    containerZ.removeClass(['freezer', 'saiyan', 'androide', 'otroMundo', 'majinBoo', 'fusion', 'cell']);
+                    containerZ.toggleClass('final');
+                    break
+                
+                default:
+                    alert('Error');
+                    break
+
+            }
+        }
     })
+
+    
 
     /* Historia Dragon Ball Super*/
     $(dbs).click(() => {

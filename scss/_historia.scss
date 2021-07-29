@@ -43,6 +43,21 @@ body{
                 font-weight: 500;
             }
         }
+    }
+
+    .dragonBallZ-contenido{
+        position: relative;
+        #botonesZ{
+            position: fixed;
+            margin-right: 3rem;
+            right: 2rem;
+            top: 50%;
+            bottom: 50%;
         }
+    }
+
+    footer{
+        margin-top: 5rem;
+    }
 
 }
