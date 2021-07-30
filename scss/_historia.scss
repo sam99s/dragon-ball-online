@@ -60,4 +60,68 @@ body{
         margin-top: 5rem;
     }
 
+    .saiyan{
+        background: linear-gradient(#B8860B,#D2691E,#8B4513);
+        color: white;
+        font-weight: 500;
+        font-size: 1em;
+    }
+
+    .freezer{
+        background: radial-gradient(#C71585,#FFF,#C71585,#FFF);
+        background-repeat: no-repeat;
+        font-weight: 500;
+        font-size: 1em;
+    }
+
+    .androide{
+        background: linear-gradient(#B22222,#8B4513);
+        color: white;
+        font-weight: 500;
+        font-size: 1em;
+    }
+
+    .cell{
+        background: linear-gradient(#008000,#006400,#000);
+        color: white;
+        font-weight: 500;
+        font-size: 1em;
+    }
+
+    .otroMundo{
+        background: radial-gradient(#008000,#9ACD32,#4682B4);
+        background-repeat: no-repeat;
+        color: white;
+        font-weight: 500;
+        font-size: 1em;
+    }
+
+    .majinBoo{
+        background: linear-gradient(#FF69B4,#FF1493);
+        color: #FFD700;
+        font-weight: 500;
+        font-size: 1em;
+    }
+
+    .fusion{
+        background: radial-gradient(#FFFF00,rgb(255, 255, 102));
+        background-repeat: no-repeat;
+        font-weight: 500;
+        font-size: 1em;
+    }
+
+    .final{
+        background: linear-gradient(to right,#FFF,#4169E1,#0000FF);
+        font-weight: 500;
+        font-size: 1em;
+        color: #000;
+    }
+
+    #botonesZ{
+        #botonesZ1,#botonesZ2,#botonesZ3,#botonesZ4,#botonesZ5,#botonesZ6,#botonesZ7,#botonesZ8{
+            font-weight: 400;
+            font-size: 1rem;
+        }
+    }
+
 }

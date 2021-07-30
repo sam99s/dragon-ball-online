@@ -41,6 +41,59 @@ body .dragonBallZ-contenido {
 body footer {
   margin-top: 5rem; }
 
+body .saiyan {
+  background: linear-gradient(#B8860B, #D2691E, #8B4513);
+  color: white;
+  font-weight: 500;
+  font-size: 1em; }
+
+body .freezer {
+  background: radial-gradient(#C71585, #FFF, #C71585, #FFF);
+  background-repeat: no-repeat;
+  font-weight: 500;
+  font-size: 1em; }
+
+body .androide {
+  background: linear-gradient(#B22222, #8B4513);
+  color: white;
+  font-weight: 500;
+  font-size: 1em; }
+
+body .cell {
+  background: linear-gradient(#008000, #006400, #000);
+  color: white;
+  font-weight: 500;
+  font-size: 1em; }
+
+body .otroMundo {
+  background: radial-gradient(#008000, #9ACD32, #4682B4);
+  background-repeat: no-repeat;
+  color: white;
+  font-weight: 500;
+  font-size: 1em; }
+
+body .majinBoo {
+  background: linear-gradient(#FF69B4, #FF1493);
+  color: #FFD700;
+  font-weight: 500;
+  font-size: 1em; }
+
+body .fusion {
+  background: radial-gradient(#FFFF00, #ffff66);
+  background-repeat: no-repeat;
+  font-weight: 500;
+  font-size: 1em; }
+
+body .final {
+  background: linear-gradient(to right, #FFF, #4169E1, #0000FF);
+  font-weight: 500;
+  font-size: 1em;
+  color: #000; }
+
+body #botonesZ #botonesZ1, body #botonesZ #botonesZ2, body #botonesZ #botonesZ3, body #botonesZ #botonesZ4, body #botonesZ #botonesZ5, body #botonesZ #botonesZ6, body #botonesZ #botonesZ7, body #botonesZ #botonesZ8 {
+  font-weight: 400;
+  font-size: 1rem; }
+
 body .db-personajes-boton {
   margin: 0.3rem; }
 
