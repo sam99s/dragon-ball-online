@@ -41,5 +41,72 @@ body{
                 }
             }
         }
+    
+    }
+    
+    .dbzsf{
+        &-personajes{
+            &-boton{
+                margin: 0.3rem;
+            }
+        }
+
+        &-imagen{
+            height: 70vh;            
+            border: 2px solid black;
+            &-figurasf{
+                height: 100%;
+                width: auto;
+                &_personajesf{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+
+    .dbzsc{
+        &-personajes{
+            &-boton{
+                margin: 0.3rem;
+            }
+        }
+
+        &-imagen{
+            height: 70vh;            
+            border: 2px solid black;
+            &-figurasc{
+                height: 100%;
+                width: auto;
+                &_personajesc{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+
+    .dbzsb{
+        &-personajes{
+            &-boton{
+                margin: 0.3rem;
+            }
+        }
+
+        &-imagen{
+            height: 70vh;            
+            border: 2px solid black;
+            &-figurasb{
+                height: 100%;
+                width: auto;
+                &_personajesb{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+        }
     }
 }

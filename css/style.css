@@ -122,6 +122,48 @@ body .dbzss-imagen {
       height: 100%;
       object-fit: contain; }
 
+body .dbzsf-personajes-boton {
+  margin: 0.3rem; }
+
+body .dbzsf-imagen {
+  height: 70vh;
+  border: 2px solid black; }
+  body .dbzsf-imagen-figurasf {
+    height: 100%;
+    width: auto; }
+    body .dbzsf-imagen-figurasf_personajesf {
+      width: 100%;
+      height: 100%;
+      object-fit: contain; }
+
+body .dbzsc-personajes-boton {
+  margin: 0.3rem; }
+
+body .dbzsc-imagen {
+  height: 70vh;
+  border: 2px solid black; }
+  body .dbzsc-imagen-figurasc {
+    height: 100%;
+    width: auto; }
+    body .dbzsc-imagen-figurasc_personajesc {
+      width: 100%;
+      height: 100%;
+      object-fit: contain; }
+
+body .dbzsb-personajes-boton {
+  margin: 0.3rem; }
+
+body .dbzsb-imagen {
+  height: 70vh;
+  border: 2px solid black; }
+  body .dbzsb-imagen-figurasb {
+    height: 100%;
+    width: auto; }
+    body .dbzsb-imagen-figurasb_personajesb {
+      width: 100%;
+      height: 100%;
+      object-fit: contain; }
+
 * {
   box-sizing: border-box;
   margin: 0;
