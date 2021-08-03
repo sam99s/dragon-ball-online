@@ -20,4 +20,26 @@ body{
             }
         }
     }
+    
+    .dbzss{
+        &-personajes{
+            &-boton{
+                margin: 0.3rem;
+            }
+        }
+
+        &-imagen{
+            height: 70vh;            
+            border: 2px solid black;
+            &-figurass{
+                height: 100%;
+                width: auto;
+                &_personajess{
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
 }
