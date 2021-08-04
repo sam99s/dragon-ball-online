@@ -74,5 +74,20 @@ $(document).ready(function () {
         fotossb = $(".dbzsb-imagen-figurasb_personajesb")
     })
 
+    /* Personajes de Dragon Ball Super */ 
+
+    const figurasuper = $('.dbs-imagen-figura');
+    let fotossuper = $('.dbs-imagen-figura_personaje')
+
+    $('.character-dbs').click((e) => {
+        $(fotossuper).remove();
+        let seleccionadosuper = e.target.id;
+        let seleccionadosuperValue = e.target.value;
+        $(figurasuper).append(`
+        <img class="dbs-imagen-figura_personaje animate__animated animate__fadeIn" src="../assets/personajes/dbs/${seleccionadosuper}.png" alt="${seleccionadosuperValue}"></img>
+        `)
+        fotossuper = $(".dbs-imagen-figura_personaje")
+    })
+
 
 })
