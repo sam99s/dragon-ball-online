@@ -24,6 +24,7 @@ button{
 
 body{
     overflow-x: hidden;
+    width: 100vw;
 
     /* Header */
     header{
@@ -43,7 +44,7 @@ body{
     }
 
     footer{
-        width: 100%;
+        width: 100vw;
         height: 20vh;
         position: relative;
         bottom: 0;
@@ -57,6 +58,12 @@ body{
             .formularioAPI{
                 width: 100%;
             }
+        }
+
+        input{
+            height: 2rem;
+            width: 10rem;
+            margin: 1rem;
         }
     }
 
