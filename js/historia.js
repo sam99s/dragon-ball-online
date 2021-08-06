@@ -419,7 +419,6 @@ $(document).ready(function () {
 
         `)
         
-
         const fondo = $('#botonesZ');
         const containerZ = $('#fondoZ');
 
@@ -427,15 +426,27 @@ $(document).ready(function () {
             $(fondo).click(cambiarFondo);
         })();
 
+        /* LocalStorage */
+
+        (() => {
+            const fondoGuardado = localStorage.getItem('fondoLocal');
+            if(fondoGuardado === null){
+                console.log('Bienvenido al mundo Z')
+            }else{
+                containerZ.toggleClass(fondoGuardado);
+            }
+        })();
+
         function cambiarFondo(e){
             e.preventDefault();
             let btnFondo = e.target.classList[1];
+            localStorage.setItem('fondoLocal', btnFondo);
 
             switch(btnFondo){
 
                 case 'saiyan':
                     containerZ.removeClass(['freezer', 'androide', 'cell', 'otroMundo', 'majinBoo', 'fusion', 'final']);
-                    containerZ.toggleClass('saiyan');
+                    containerZ.toggleClass('saiyan');                    
                     break
 
                 case 'freezer':
@@ -478,7 +489,7 @@ $(document).ready(function () {
                     break
 
             }
-        }
+        }        
     })
 
     
